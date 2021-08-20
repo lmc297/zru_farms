@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="BEAST v2.5.1:SSM v1.1.0" version="2.5">
+
+
+    <data id="cleanOriginal" name="alignment">
+                        <sequence id="seq_BOV_CERO_35_10-02-08_R8-2685" taxon="BOV_CERO_35_10-02-08_R8-2685" totalcount="4" value="TGCGGGGGATGAGGACCCGTG"/>
+                        <sequence id="seq_BOV_CERO_62_11-12-08_R8-2903" taxon="BOV_CERO_62_11-12-08_R8-2903" totalcount="4" value="TGCGGAGGATTAAACCCCGTG"/>
+                        <sequence id="seq_ENV_CERO_62_01-22-09_R8-3412" taxon="ENV_CERO_62_01-22-09_R8-3412" totalcount="4" value="TGCGGGGGGTGCGGCCCTGTG"/>
+                        <sequence id="seq_ENV_CERO_62_03-05-09_R8-3445" taxon="ENV_CERO_62_03-05-09_R8-3445" totalcount="4" value="TTCGGAAGAGTAGGCACCGCA"/>
+                        <sequence id="seq_ENV_CERO_62_04-16-09_R8-3664" taxon="ENV_CERO_62_04-16-09_R8-3664" totalcount="4" value="TGCGGGGGGTGAGGCCCTATG"/>
+                        <sequence id="seq_ENV_CERO_62_05-28-09_R8-4025" taxon="ENV_CERO_62_05-28-09_R8-4025" totalcount="4" value="TGCGAAGGATTAGGCCACGTG"/>
+                        <sequence id="seq_ENV_CERO_62_07-09-09_R8-4030" taxon="ENV_CERO_62_07-09-09_R8-4030" totalcount="4" value="GGCAGGGTATGAGGCCCTGTG"/>
+                        <sequence id="seq_ENV_CERO_62_07-22-08_R8-1631" taxon="ENV_CERO_62_07-22-08_R8-1631" totalcount="4" value="TGCGGAGGATTAGGCCCCGTG"/>
+                        <sequence id="seq_ENV_CERO_62_07-22-08_R8-1632" taxon="ENV_CERO_62_07-22-08_R8-1632" totalcount="4" value="TGCGGAGGATTAGGCCCCGTG"/>
+                        <sequence id="seq_ENV_CERO_62_09-03-08_R8-2026" taxon="ENV_CERO_62_09-03-08_R8-2026" totalcount="4" value="TGCGGAGGATTAGGCCCCGTG"/>
+                        <sequence id="seq_ENV_CERO_62_10-14-08_R8-2818" taxon="ENV_CERO_62_10-14-08_R8-2818" totalcount="4" value="TGTGGAGGATTAGGCCCCGTG"/>
+                        <sequence id="seq_ENV_CERO_62_11-12-08_R8-2852" taxon="ENV_CERO_62_11-12-08_R8-2852" totalcount="4" value="TGCGGAGGATTAGGCCCCGTG"/>
+                        <sequence id="seq_ENV_CERO_62_12-11-08_R8-3138" taxon="ENV_CERO_62_12-11-08_R8-3138" totalcount="4" value="TGCGGAGGATTAGGCCCCGTG"/>
+                    </data>
+
+<data id='clean' spec='FilteredAlignment' filter='-' data='@cleanOriginal' constantSiteWeights='1116535 1218246 1224064 1118014'/>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="100000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:clean" name="stateNode">
+            <trait id="dateTrait.t:clean" spec="beast.evolution.tree.TraitSet" dateFormat="MM-dd-yy" traitname="date" value="BOV_CERO_35_10-02-08_R8-2685=10-02-08,BOV_CERO_62_11-12-08_R8-2903=11-12-08,ENV_CERO_62_01-22-09_R8-3412=01-22-09,ENV_CERO_62_03-05-09_R8-3445=03-05-09,ENV_CERO_62_04-16-09_R8-3664=04-16-09,ENV_CERO_62_05-28-09_R8-4025=05-28-09,ENV_CERO_62_07-09-09_R8-4030=07-09-09,ENV_CERO_62_07-22-08_R8-1631=07-22-08,ENV_CERO_62_07-22-08_R8-1632=07-22-08,ENV_CERO_62_09-03-08_R8-2026=09-03-08,ENV_CERO_62_10-14-08_R8-2818=10-14-08,ENV_CERO_62_11-12-08_R8-2852=11-12-08,ENV_CERO_62_12-11-08_R8-3138=12-11-08">
+                <taxa id="TaxonSet.clean" spec="TaxonSet">
+                    <alignment idref="clean"/>
+                </taxa>
+            </trait>
+            <taxonset idref="TaxonSet.clean"/>
+        </tree>
+        <parameter id="clockRate.c:clean" name="stateNode">2.79E-7</parameter>
+        <parameter id="gammaShape.s:clean" name="stateNode">1.0</parameter>
+        <parameter id="TPM1rates.s:clean" dimension="3" lower="0.0" name="stateNode">1.0 1.0 1.0</parameter>
+        <parameter id="bPopSizes.t:clean" dimension="5" lower="0.0" name="stateNode" upper="380000.0">380.0</parameter>
+        <stateNode id="bGroupSizes.t:clean" spec="parameter.IntegerParameter" dimension="5">1</stateNode>
+    </state>
+
+    <init id="RandomTree.t:clean" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:clean" taxa="@clean">
+        <populationModel id="ConstantPopulation0.t:clean" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:clean" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BayesianSkyline.t:clean" spec="BayesianSkyline" groupSizes="@bGroupSizes.t:clean" popSizes="@bPopSizes.t:clean">
+                <treeIntervals id="BSPTreeIntervals.t:clean" spec="TreeIntervals" tree="@Tree.t:clean"/>
+            </distribution>
+            <distribution id="MarkovChainedPopSizes.t:clean" spec="beast.math.distributions.MarkovChainDistribution" jeffreys="true" parameter="@bPopSizes.t:clean"/>
+            <prior id="ClockPrior.c:clean" name="distribution" x="@clockRate.c:clean">
+                <LogNormal id="LogNormalDistributionModel.0" meanInRealSpace="true" name="distr">
+                    <parameter id="RealParameter.1" estimate="false" name="M">2.058E-6</parameter>
+                    <parameter id="RealParameter.2" estimate="false" lower="0.0" name="S" upper="5.0">2.0</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="GammaShapePrior.s:clean" name="distribution" x="@gammaShape.s:clean">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" estimate="false" name="mean">1.0</parameter>
+                </Exponential>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.clean" spec="ThreadedTreeLikelihood" data="@clean" tree="@Tree.t:clean">
+                <siteModel id="SiteModel.s:clean" spec="SiteModel" gammaCategoryCount="5" shape="@gammaShape.s:clean">
+                    <parameter id="mutationRate.s:clean" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="proportionInvariant.s:clean" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="Standard_TPM1.s:clean" spec="substmodels.nucleotide.TPM1" rates="@TPM1rates.s:clean"/>
+                </siteModel>
+                <branchRateModel id="StrictClock.c:clean" spec="beast.evolution.branchratemodel.StrictClockModel" clock.rate="@clockRate.c:clean"/>
+            </distribution>
+        </distribution>
+        <distribution id="fossilCalibrations" spec="util.CompoundDistribution"/>
+    </distribution>
+
+    <operator id="StrictClockRateScaler.c:clean" spec="ScaleOperator" parameter="@clockRate.c:clean" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="strictClockUpDownOperator.c:clean" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+        <up idref="clockRate.c:clean"/>
+        <down idref="Tree.t:clean"/>
+    </operator>
+
+    <operator id="gammaShapeScaler.s:clean" spec="ScaleOperator" parameter="@gammaShape.s:clean" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="TPM1RateDeltaExchanger.s:clean" spec="DeltaExchangeOperator" delta="0.1" weight="0.1">
+        <parameter idref="TPM1rates.s:clean"/>
+        <weightvector id="IntegerParameter.0" spec="parameter.IntegerParameter" dimension="3" estimate="false">2 2 2</weightvector>
+    </operator>
+
+    <operator id="BayesianSkylineTreeScaler.t:clean" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:clean" weight="3.0"/>
+
+    <operator id="BayesianSkylineTreeRootScaler.t:clean" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:clean" weight="3.0"/>
+
+    <operator id="BayesianSkylineUniformOperator.t:clean" spec="Uniform" tree="@Tree.t:clean" weight="30.0"/>
+
+    <operator id="BayesianSkylineSubtreeSlide.t:clean" spec="SubtreeSlide" tree="@Tree.t:clean" weight="15.0"/>
+
+    <operator id="BayesianSkylineNarrow.t:clean" spec="Exchange" tree="@Tree.t:clean" weight="15.0"/>
+
+    <operator id="BayesianSkylineWide.t:clean" spec="Exchange" isNarrow="false" tree="@Tree.t:clean" weight="3.0"/>
+
+    <operator id="BayesianSkylineWilsonBalding.t:clean" spec="WilsonBalding" tree="@Tree.t:clean" weight="3.0"/>
+
+    <operator id="popSizesScaler.t:clean" spec="ScaleOperator" parameter="@bPopSizes.t:clean" scaleFactor="0.75" weight="15.0"/>
+
+    <operator id="groupSizesDelta.t:clean" spec="DeltaExchangeOperator" integer="true" weight="6.0">
+        <intparameter idref="bGroupSizes.t:clean"/>
+    </operator>
+
+    <logger id="tracelog" fileName="clean.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.clean"/>
+        <log id="TreeHeight.t:clean" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:clean"/>
+        <log idref="clockRate.c:clean"/>
+        <log idref="gammaShape.s:clean"/>
+        <log idref="Standard_TPM1.s:clean"/>
+        <log idref="BayesianSkyline.t:clean"/>
+        <log idref="bPopSizes.t:clean"/>
+        <log idref="bGroupSizes.t:clean"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="10000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:clean" fileName="$(tree).trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:clean" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:clean"/>
+    </logger>
+
+</run>
+
+</beast>

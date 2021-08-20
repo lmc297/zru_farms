@@ -1,0 +1,672 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=570;
+	taxlabels
+	BOV_ANAT_39_02-21-08_R8-0842[&!color=#ff0000]
+	BOV_ANAT_39_02-21-08_R8-0847[&!color=#ff0000]
+	BOV_ANAT_56_04-19-08_R8-0968[&!color=#ff0000]
+	BOV_ANAT_56_04-19-08_R8-0969[&!color=#ff0000]
+	BOV_CERO_35_10-02-08_R8-2685[&!color=#009999]
+	BOV_CERO_62_11-12-08_R8-2903[&!color=#009999]
+	BOV_KENT_14_11-06-07_R6-0942[&!color=#ff8000]
+	BOV_KENT_14_12-13-07_R8-0083[&!color=#ff8000]
+	BOV_KENT_16_02-13-08_R8-0836[&!color=#ff8000]
+	BOV_KENT_16_02-13-08_R8-0838[&!color=#ff8000]
+	BOV_KENT_16_04-03-08_R8-0967[&!color=#ff8000]
+	BOV_KENT_16_05-21-08_R8-1485[&!color=#ff8000]
+	BOV_KENT_17_02-12-08_R8-0823[&!color=#ff8000]
+	BOV_KENT_17_11-07-07_R6-0957[&!color=#ff8000]
+	BOV_KENT_17_12-12-07_R8-0211[&!color=#ff8000]
+	BOV_KENT_19_11-19-07_R6-0966[&!color=#ff8000]
+	BOV_KENT_42_03-13-08_R8-0863[&!color=#ff8000]
+	BOV_MELA_01_10-02-07_R6-0951[&!color=#0000ff]
+	BOV_MELA_01_10-30-07_R6-0802[&!color=#0000ff]
+	BOV_MELA_01_10-30-07_R6-0803[&!color=#0000ff]
+	BOV_MELA_01_10-30-07_R6-0810[&!color=#0000ff]
+	BOV_MELA_01_12-11-07_R8-0198[&!color=#0000ff]
+	BOV_NEWP_17_11-07-07_R6-0956[&!color=#0080ff]
+	BOV_NEWP_17_12-12-07_R8-0206[&!color=#0080ff]
+	BOV_NEWP_35_10-02-08_R8-2688[&!color=#0080ff]
+	BOV_NEWP_62_10-14-08_R8-2874[&!color=#0080ff]
+	BOV_NEWP_62_11-12-08_R8-2900[&!color=#0080ff]
+	BOV_TYPH_17_12-12-07_R8-0208[&!color=#8000ff]
+	BOV_TYPH_22_01-18-08_R8-0227[&!color=#8000ff]
+	BOV_TYPH_22_01-18-08_R8-0228[&!color=#8000ff]
+	BOV_TYPH_22_01-18-08_R8-0229[&!color=#8000ff]
+	BOV_TYPH_22_01-18-08_R8-0231[&!color=#8000ff]
+	BOV_TYPH_22_01-18-08_R8-0271[&!color=#8000ff]
+	BOV_TYPH_22_01-18-08_R8-0273[&!color=#8000ff]
+	BOV_TYPH_22_03-14-08_R8-0865[&!color=#8000ff]
+	BOV_TYPH_25_01-15-08_R8-0233[&!color=#8000ff]
+	BOV_TYPH_25_11-20-07_R6-0978[&!color=#8000ff]
+	BOV_TYPH_25_11-20-07_R6-0979[&!color=#8000ff]
+	BOV_TYPH_25_11-20-07_R6-0983[&!color=#8000ff]
+	ENV_ANAT_39_01-09-08_R8-0187[&!color=#ff0000]
+	ENV_ANAT_39_02-21-08_R8-0348[&!color=#ff0000]
+	ENV_ANAT_39_04-17-08_R8-0905[&!color=#ff0000]
+	ENV_ANAT_39_11-13-07_R6-0928[&!color=#ff0000]
+	ENV_ANAT_39_11-13-07_R6-0929[&!color=#ff0000]
+	ENV_ANAT_39_12-03-08_R8-2860[&!color=#ff0000]
+	ENV_ANAT_56_02-22-08_R8-0350[&!color=#ff0000]
+	ENV_ANAT_56_03-25-09_R8-3652[&!color=#ff0000]
+	ENV_ANAT_56_03-25-09_R8-3653[&!color=#ff0000]
+	ENV_ANAT_56_04-18-08_R8-0907[&!color=#ff0000]
+	ENV_ANAT_56_06-12-08_R8-1402[&!color=#ff0000]
+	ENV_CERO_62_01-22-09_R8-3412[&!color=#009999]
+	ENV_CERO_62_03-05-09_R8-3445[&!color=#009999]
+	ENV_CERO_62_04-16-09_R8-3664[&!color=#009999]
+	ENV_CERO_62_05-28-09_R8-4025[&!color=#009999]
+	ENV_CERO_62_07-09-09_R8-4030[&!color=#009999]
+	ENV_CERO_62_07-22-08_R8-1631[&!color=#009999]
+	ENV_CERO_62_07-22-08_R8-1632[&!color=#009999]
+	ENV_CERO_62_09-03-08_R8-2026[&!color=#009999]
+	ENV_CERO_62_10-14-08_R8-2818[&!color=#009999]
+	ENV_CERO_62_11-12-08_R8-2852[&!color=#009999]
+	ENV_CERO_62_12-11-08_R8-3138[&!color=#009999]
+	ENV_KENT_14_02-14-08_R8-0344[&!color=#ff8000]
+	ENV_KENT_14_08-30-08_R8-2016[&!color=#ff8000]
+	ENV_KENT_14_10-11-07_R6-0798[&!color=#ff8000]
+	ENV_KENT_16_09-09-08_R8-2031[&!color=#ff8000]
+	ENV_KENT_16_11-11-08_R8-2848[&!color=#ff8000]
+	ENV_KENT_16_12-04-07_R8-0061[&!color=#ff8000]
+	ENV_KENT_17_03-11-08_R8-0814[&!color=#ff8000]
+	ENV_KENT_17_03-11-08_R8-0815[&!color=#ff8000]
+	ENV_KENT_17_06-17-08_R8-1405[&!color=#ff8000]
+	ENV_KENT_17_07-27-08_R8-1641[&!color=#ff8000]
+	ENV_KENT_17_09-10-08_R8-2033[&!color=#ff8000]
+	ENV_KENT_17_10-11-07_R6-1000[&!color=#ff8000]
+	ENV_KENT_19_01-16-08_R8-0168[&!color=#ff8000]
+	ENV_KENT_19_03-13-08_R8-0817[&!color=#ff8000]
+	ENV_KENT_19_04-28-08_R8-0916[&!color=#ff8000]
+	ENV_KENT_19_04-28-08_R8-0917[&!color=#ff8000]
+	ENV_KENT_19_07-21-08_R8-1644[&!color=#ff8000]
+	ENV_KENT_19_10-02-08_R8-2813[&!color=#ff8000]
+	ENV_KENT_42_01-17-08_R8-0191[&!color=#ff8000]
+	ENV_KENT_42_04-23-08_R8-0913[&!color=#ff8000]
+	ENV_KENT_42_04-23-08_R8-0914[&!color=#ff8000]
+	ENV_KENT_42_07-23-08_R8-1640[&!color=#ff8000]
+	ENV_KENT_42_08-19-08_R8-2009[&!color=#ff8000]
+	ENV_KENT_42_09-17-08_R8-2236[&!color=#ff8000]
+	ENV_KENT_42_11-15-07_R6-0935[&!color=#ff8000]
+	ENV_MELA_01_01-10-08_R8-0165[&!color=#0000ff]
+	ENV_MELA_01_04-04-08_R8-0901[&!color=#0000ff]
+	ENV_MELA_01_05-08-08_R8-1381[&!color=#0000ff]
+	ENV_MELA_01_06-13-08_R8-1406[&!color=#0000ff]
+	ENV_MELA_01_07-23-08_R8-1633[&!color=#0000ff]
+	ENV_MELA_01_09-10-08_R8-2233[&!color=#0000ff]
+	ENV_MELA_01_10-02-07_R6-0938[&!color=#0000ff]
+	ENV_MELA_01_10-22-08_R8-2829[&!color=#0000ff]
+	ENV_MELA_01_NA-NA-NA_R8-0346[&!color=#0000ff]
+	ENV_MELA_11_07-18-08_R8-1626[&!color=#0000ff]
+	ENV_MELA_11_08-25-08_R8-2010[&!color=#0000ff]
+	ENV_MELA_11_09-28-08_R8-2244[&!color=#0000ff]
+	ENV_MELA_11_10-30-08_R8-2834[&!color=#0000ff]
+	ENV_MELA_11_10-30-08_R8-2836[&!color=#0000ff]
+	ENV_MELA_11_10-31-07_R6-0801[&!color=#0000ff]
+	ENV_MINN_62_09-03-08_R8-2025[&!color=#ff00ff]
+	ENV_NEWP_17_02-12-08_R8-0341[&!color=#0080ff]
+	ENV_NEWP_17_02-12-08_R8-0342[&!color=#0080ff]
+	ENV_NEWP_35_07-23-08_R8-1638[&!color=#0080ff]
+	ENV_NEWP_35_10-02-08_R8-2249[&!color=#0080ff]
+	ENV_NEWP_35_11-05-08_R8-2843[&!color=#0080ff]
+	ENV_NEWP_35_12-09-08_R8-3136[&!color=#0080ff]
+	ENV_NEWP_62_01-22-09_R8-3410[&!color=#0080ff]
+	ENV_NEWP_62_03-05-09_R8-3442[&!color=#0080ff]
+	ENV_NEWP_62_05-28-09_R8-4026[&!color=#0080ff]
+	ENV_NEWP_62_12-11-08_R8-3137[&!color=#0080ff]
+	ENV_NEWP_62_12-11-08_R8-3139[&!color=#0080ff]
+	ENV_TCOP_25_04-01-08_R8-0896[&!color=#6666ff]
+	ENV_TCOP_25_04-01-08_R8-0898[&!color=#6666ff]
+	ENV_TCOP_25_07-01-08_R8-1623[&!color=#6666ff]
+	ENV_TCOP_25_07-29-08_R8-1642[&!color=#6666ff]
+	ENV_TCOP_25_09-03-08_R8-2017[&!color=#6666ff]
+	ENV_TYPH_22_01-18-08_R8-0174[&!color=#8000ff]
+	ENV_TYPH_22_03-14-08_R8-0820[&!color=#8000ff]
+	ENV_TYPH_22_12-17-07_R8-0171[&!color=#8000ff]
+	ENV_TYPH_25_03-07-08_R8-0812[&!color=#8000ff]
+	ENV_TYPH_25_05-01-08_R8-1385[&!color=#8000ff]
+	ENV_TYPH_25_07-01-08_R8-1621[&!color=#8000ff]
+	ENV_TYPH_25_07-01-08_R8-1622[&!color=#8000ff]
+	ENV_TYPH_25_10-19-07_R6-0792[&!color=#8000ff]
+	ENV_TYPH_25_10-19-07_R6-0793[&!color=#8000ff]
+	ENV_TYPH_25_10-19-07_R6-0794[&!color=#8000ff]
+	SRR1002807_I_Saphra
+	SRR1027783_I_Inverness
+	SRR1029566_I_Maastricht
+	SRR1033519_I_Memphis
+	SRR1041492_I_Veneziana
+	SRR1041519_I_Agoueve
+	SRR1048286_I_Mathura
+	SRR1048316_I_Blijdorp
+	SRR1049701_I_Miami
+	SRR1055750_I_Amager
+	SRR1055751_I_Kibusi
+	SRR1067624_I_Fluntern
+	SRR1068296_I_Louga
+	SRR1068335_I__O_47_z4_z23_
+	SRR1091080_I_Duesseldorf
+	SRR1097804_I_Welikade
+	SRR1097810_I_Eastbourne
+	SRR1105670_I_Bispebjerg
+	SRR1107489_I_Coeln
+	SRR1157590_I_Paratyphi_B_monophasic_
+	SRR1157734_I_Chingola
+	SRR1157900_I_Larochelle
+	SRR1158067_I_Euston
+	SRR1158161_I_Mountpleasant
+	SRR1170861_I_Haduna
+	SRR1171461_I_Lomalinda
+	SRR1175814_I_Troy
+	SRR1181564_IIIa__IIIa_O_18_z4_z32_
+	SRR1185779_I_Lingwala
+	SRR1185808_I_Pomona
+	SRR1185841_I_Ramatgan
+	SRR1186220_I_Tennessee
+	SRR1188450_I__O_i_e_n_z15_
+	SRR1188473_I__O_i_1_2_
+	SRR1198893_I_Labadi
+	SRR1198918_I_Labadi
+	SRR1206168_I_Buzu
+	SRR1212305_I_Nchanga
+	SRR1212361_I_Nchanga
+	SRR1233937_I_Nottingham
+	SRR1238783_I_Kentucky[&!color=#003333]
+	SRR1248943_II__II_O_42_b_e_n_x_z15_
+	SRR1248994_I_Nagoya
+	SRR1249004_II__II_O_40_z4_z24_z39_
+	SRR1257310_I_Lansing
+	SRR1264948_I_O_7_d_z35
+	SRR1264961_I_Apeyeme
+	SRR1265010_I_Kisarawe
+	SRR1269367_I_Nottingham
+	SRR1272507_I_Meleagridis
+	SRR1272845_II_II_O_4_a_
+	SRR1282381_I_Luciana
+	SRR1284655_I_Treforest
+	SRR1287030_I_Kisarawe
+	SRR1288359_I_Ouakam
+	SRR1292239_I_Kintambo
+	SRR1292244_I_Istanbul
+	SRR1292306_I_Kingabwa
+	SRR1292317_I_Paratyphi_B
+	SRR1299400_I_Meleagridis_var_O_15_
+	SRR1300706_I_Newport
+	SRR1300728_IIIa__IIIa_O_18_z4_z32_
+	SRR1346306_I_Szentes
+	SRR1422623_I_Matopeni
+	SRR1425240_I_Farmsen
+	SRR1425262_I_Dortmund
+	SRR1425268_I_Waycross
+	SRR1425278_I__O_3_10_z41_2_5_
+	SRR1427707_I_Ramatgan
+	SRR1448848_I_Mississippi
+	SRR1448866_I_Javiana
+	SRR1448927_I_Carno
+	SRR1481630_I_Carmel
+	SRR1481631_I_Colindale
+	SRR1481638_I_Chailey
+	SRR1481651_I_Coeln
+	SRR1481652_I_Haifa
+	SRR1481653_I_Kokomlemle
+	SRR1481655_I_Edinburg
+	SRR1481657_I_Amoutive
+	SRR1481667_I_Chandans
+	SRR1481680_I_Arechavaleta
+	SRR1481691_I_Cerro
+	SRR1481701_I_Baildon
+	SRR1501458_I_Kisarawe
+	SRR1501664_I_Kisarawe
+	SRR1503312_I__O_6_14_25_b_1_6_
+	SRR1509580_I_Kokomlemle
+	SRR1509593_I_Beaudesert
+	SRR1509594_I_Indiana
+	SRR1509612_I_Holcomb
+	SRR1509616_I_Ituri
+	SRR1511571_I_Typhisuis
+	SRR1515000_I_Paratyphi_B
+	SRR1515011_I_Paratyphi_B_monophasic_
+	SRR1522093_I_Tamberma
+	SRR1535705_I_Telhashomer
+	SRR1539633_I_Freetown
+	SRR1548394_I_Stanleyville
+	SRR1548408_I_Luke
+	SRR1548420_I_Vinohrady
+	SRR1548438_IV__IV_O_45_g_z51_
+	SRR1548439_I_Bietri
+	SRR1548457_I_Woodinville
+	SRR1553822_I_Weslaco
+	SRR1560603_I_O_50_y_
+	SRR1562609_I_Mikawasima
+	SRR1562646_I_Amsterdam
+	SRR1562661_I_Mikawasima
+	SRR1576581_I_Edinburg
+	SRR1578491_I_Ealing
+	SRR1582199_I_Fulica
+	SRR1604901_I_Newport
+	SRR1604925_I_Tallahassee
+	SRR1609677_I_Carrau
+	SRR1617360_I_Amsterdam
+	SRR1618693_I_Weslaco
+	SRR1623018_I_Ouakam
+	SRR1636889_I_Matopeni
+	SRR1636926_I_Colindale
+	SRR1636927_I_Perth
+	SRR1638901_I_Nagoya
+	SRR1639648_I_Warragul
+	SRR1639649_I_Telelkebir
+	SRR1646570_I_Chailey
+	SRR1646572_I_Paratyphi_B
+	SRR1646585_I_Chailey
+	SRR1648156_I_Gera
+	SRR1648165_I_Telaviv
+	SRR1648175_I_Singapore
+	SRR1653355_I_Uganda
+	SRR1653360_I_Singapore
+	SRR1653372_I_Bangkok
+	SRR1653383_I_Newport
+	SRR1653412_I_Astridplein
+	SRR1653431_I_Uganda
+	SRR1654952_I_Michigan
+	SRR1654985_I_Charity
+	SRR1659020_I_Weltevreden
+	SRR1665135_I_Richmond
+	SRR1687200_I_Konstanz
+	SRR1687201_I_Onderstepoort
+	SRR1687202_I_Malstatt
+	SRR1687209_I_Typhimurium
+	SRR1693402_IV__IV_O_43_z4_z23_
+	SRR1694045_I_Salford
+	SRR1705586_I_London
+	SRR1720755_I_Vitkin
+	SRR1726160_I_Fresno
+	SRR1732583_I_Richmond
+	SRR1745545_I_Mkamba
+	SRR1745620_I_Charity
+	SRR1752865_IIIa__IIIa_O_18_z4_z23_
+	SRR1767804_I_Inverness
+	SRR1767807_I_Heidelberg
+	SRR1767826_I_Manhattan
+	SRR1770502_IV__IV_O_48_z4_z32_
+	SRR1772987_I_Milwaukee
+	SRR1773000_I_Milwaukee
+	SRR1773004_I_Duesseldorf
+	SRR1774072_I_Nima
+	SRR1774076_I_Florida
+	SRR1777993_I_Augustenborg
+	SRR1778033_I_Miami
+	SRR1778039_I_Perth
+	SRR1793255_I_Nessziona
+	SRR1805578_I_Tucson
+	SRR1805589_I_Bonariensis
+	SRR1805616_I_Muenster
+	SRR1805659_I_Litchfield
+	SRR1810525_I_Bietri
+	SRR1810561_I_Paratyphi_B
+	SRR1810853_I_Blockley
+	SRR1810856_I_Magwa
+	SRR1810861_I_Goulfey
+	SRR1810876_I_Magwa
+	SRR1812800_I_Montevideo
+	SRR1812804_I_Plymouth
+	SRR1812876_I_Kibusi
+	SRR1816816_I_Kirkee
+	SRR1816829_I_Hermannswerder
+	SRR1821287_I_Chicago
+	SRR1821296_I_Hartford
+	SRR1821303_I_Orientalis
+	SRR1910747_I_Suelldorf
+	SRR1910772_I_O_7_k_z35
+	SRR1916082_I_Paratyphi_B
+	SRR1916117_I_Llandoff
+	SRR1917482_I_Eastbourne
+	SRR1917487_I_Kumasi
+	SRR1918953_I_Nottingham
+	SRR1918981_I_Champaign
+	SRR1920229_I_Molade
+	SRR1946936_I_Yoruba
+	SRR1973629_I_Altona
+	SRR1980620_I_Benue
+	SRR1980627_I_Benue
+	SRR1982175_I_Kottbus
+	SRR1982204_I_Barranquilla
+	SRR1985970_I_Ealing
+	SRR1996173_I_Simi
+	SRR2000239_I_Richmond
+	SRR2005900_I_Colobane
+	SRR2005905_I_Colobane
+	SRR2015928_I_Wentworth
+	SRR2016686_I_Abortusequi
+	SRR2016687_I_Abortusovis
+	SRR2016688_I_Abortusequi
+	SRR2016691_I_Choleraesuis_var_Kunzendorf
+	SRR2016693_I_Gallinarum
+	SRR2025274_I_Weltevreden
+	SRR2025297_I_Richmond
+	SRR2032530_I_Kiambu
+	SRR2039095_I_Montevideo
+	SRR2039108_I_Livingstone
+	SRR2039125_I__O_g_m_s_t_
+	SRR2054385_I_Roan
+	SRR2070975_I_Saphra
+	SRR2075085_II_II_O_7_z6_z39
+	SRR2075153_II_II_O_7_z6_z39
+	SRR2075998_I_Tananarive
+	SRR2076035_I_Livingstone
+	SRR2078199_I_Portland
+	SRR2085740_I__O_47_z4_z23_
+	SRR2086557_II__II_O_42_b_e_n_x_z15_
+	SRR2086572_I_Szentes
+	SRR2086583_I_Lansing
+	SRR2086987_I_Aba
+	SRR2096628_I_Lille
+	SRR2102462_I_Tucson
+	SRR2102466_I_Hindmarsh
+	SRR2102502_I_Infantis
+	SRR2107092_I_Mgulani
+	SRR2107131_I_Anfo
+	SRR2124319_I_Sundsvall
+	SRR2124334_I_Amsterdam
+	SRR2124377_I__O_4_5_12_i_
+	SRR2124392_I__O_47_z4_z23_
+	SRR2124417_I_Chester
+	SRR2127514_I_Carrau
+	SRR2127518_I_Yenne
+	SRR2133205_I_Adelaide
+	SRR2133233_I__O_9_46_l_v_z35_
+	SRR2143466_I_Anfo
+	SRR2156598_I_Nottingham
+	SRR2163259_I_Stanleyville
+	SRR2173987_I_Cannstatt
+	SRR2173991_I_Isangi
+	SRR2482398_I_Manhattan
+	SRR2482399_I_Caracas
+	SRR2482400_I_Caracas
+	SRR2532676_I_Freiburg
+	SRR2533415_I_Freiburg
+	SRR2533416_I_Onderstepoort
+	SRR2533808_I_Matopeni
+	SRR2533821_I_Freetown
+	SRR2534074_II_II_O_50_z10_z6
+	SRR2534078_IV__IV_O_43_z4_z23_
+	SRR2534118_I_Typhimurium_var_O_5_
+	SRR2534125_I_Amager
+	SRR2534151_I_Give
+	SRR2583944_I_Reading
+	SRR2585436_I_O_50_y_
+	SRR2585491_VI__VI_O_6_14_a_z35_
+	SRR2585560_I_Corvallis
+	SRR2585561_I_Bahrenfeld
+	SRR2585562_I_Nchanga
+	SRR2585563_I_Nchanga
+	SRR2585567_I_Bangkok
+	SRR2650314_I_Thompson
+	SRR2728270_I_Teko
+	SRR2751265_I_Michigan
+	SRR2751902_I_Hartford
+	SRR2857712_I_Paratyphi_B
+	SRR2857713_I_Virchow
+	SRR2911002_I_Molade
+	SRR2917928_I_Telelkebir
+	SRR2917929_I_Fluntern
+	SRR2925141_I_Typhimurium
+	SRR2925142_I_Paratyphi_B
+	SRR2939005_I_Reading
+	SRR2960582_I_Baildon
+	SRR2960793_I_Saintpaul
+	SRR2971131_I_Sandiego
+	SRR2979535_I_Saintpaul
+	SRR2993253_I_Butantan
+	SRR2993259_I_Sundsvall
+	SRR3027078_I_Altona
+	SRR3027391_I_Bareilly
+	SRR3038202_I_Ohio
+	SRR3038286_I_Stanley
+	SRR3046424_I_Tallahassee
+	SRR3057114_I_Panama
+	SRR3088918_I_Virchow
+	SRR3092110_IIIb_IIIb_O_50_r_z
+	SRR3098722_I_Bredeney
+	SRR3100232_I_Sandiego
+	SRR3111263_I__O_4_12_i_
+	SRR3115185_I_Berta
+	SRR3115972_I_Livingstone
+	SRR3115982_I_Mikawasima
+	SRR3133017_I_Cerro
+	SRR3137264_I_Kottbus
+	SRR3137265_I_Orion
+	SRR3137277_I_Bovismorbificans
+	SRR3137519_I_Stanley
+	SRR3137524_I_Poona
+	SRR3152523_I_Uzaramo
+	SRR3173397_I_Muenster
+	SRR3173528_I_Dublin
+	SRR3173533_I_Javiana
+	SRR3173549_I_Durban
+	SRR3173781_I_Oslo
+	SRR3173782_I_Johannesburg
+	SRR3173783_I_Bahrenfeld
+	SRR3173785_I_Wandsworth
+	SRR3173787_I_Urbana
+	SRR3173797_I_Jukestown
+	SRR3174972_I_Zanzibar
+	SRR3174986_I_Zanzibar
+	SRR3181822_I_Gamaba
+	SRR3182177_I_Stanleyville
+	SRR3182178_I_Stanleyville
+	SRR3183968_I_Poona
+	SRR3183970_I_Bredeney
+	SRR3191379_I_Brunei
+	SRR3191389_I_Johannesburg
+	SRR3191398_I_Brandenburg
+	SRR3191435_I_Tennessee
+	SRR3194569_I_Litchfield
+	SRR3198620_I_Albany
+	SRR3199410_I_Virchow
+	SRR3199543_I_Braenderup
+	SRR3199556_I_Mgulani
+	SRR3199559_I_Livingstone
+	SRR3210382_I_Uganda
+	SRR3210387_I_Norwich
+	SRR3210392_I_Norwich
+	SRR3219071_I_Westminster
+	SRR3219163_I_Alachua
+	SRR3223148_I_Chester
+	SRR3223729_I_Thompson
+	SRR3223735_I_Havana
+	SRR3224095_I_Schwarzengrund
+	SRR3228577_I_Tempe
+	SRR3228581_I_Virchow
+	SRR3229333_I_Javiana
+	SRR3229337_I_Kiambu
+	SRR3229339_I_Havana
+	SRR3229342_I_Poona
+	SRR3242142_I_Hidalgo
+	SRR3242145_I_Schwarzengrund
+	SRR3242164_I_Reading
+	SRR3242165_I_Hvittingfoss
+	SRR3242170_I_Bareilly
+	SRR3242174_I_Rubislaw
+	SRR3242176_I_Miami
+	SRR3242205_I_Teddington
+	SRR3242207_I_Plymouth
+	SRR3242208_I_Stockholm
+	SRR3242209_I_Solt
+	SRR3271930_I_Tennessee
+	SRR3286725_I_Poona
+	SRR3286731_I_Barranquilla
+	SRR3286752_I_Poona
+	SRR3286755_I_Lexington
+	SRR3289797_I_Alachua
+	SRR3306209_I_Enteritidis
+	SRR3316319_I_Uganda
+	SRR3316323_I_Rubislaw
+	SRR3330230_I_Berta
+	SRR3330381_I_Albany
+	SRR3330765_I_Luciana
+	SRR3340449_I_Thompson
+	SRR3344493_I_Krefeld
+	SRR3344810_I_Kedougou
+	SRR3372414_I_Wandsworth
+	SRR3372419_I_Newport
+	SRR3372425_I_Pomona
+	SRR3372426_I_Thompson
+	SRR3372428_I_Lexington
+	SRR3372429_I_Newport
+	SRR3372432_I_Teddington
+	SRR3372433_I_Weltevreden
+	SRR3379316_I_Mikawasima
+	SRR3379318_I_Bareilly
+	SRR3379319_I_Oranienburg
+	SRR3379327_I_Bredeney
+	SRR3400001_I_Montevideo
+	SRR3400013_I_Heidelberg
+	SRR3438062_I_Madelia
+	SRR3438069_I_Gaminara
+	SRR3438075_I_Kottbus
+	SRR3438078_I_Newport
+	SRR3438082_I_Cubana
+	SRR3438084_I_Pomona
+	SRR3438086_I_Oranienburg
+	SRR3438090_I_Montevideo
+	SRR3452350_I_Ilala
+	SRR3453115_I_Aberdeen
+	SRR3453116_I_Minnesota
+	SRR3453120_I_Mbandaka
+	SRR3453124_I_Muenster
+	SRR3453126_I_Muenster
+	SRR3453156_I_Buzu
+	SRR3453162_I_Muenchen
+	SRR3453163_I_Kingabwa
+	SRR3457642_I_Takoradi
+	SRR3457645_I_Takoradi
+	SRR3457704_I_Enteritidis
+	SRR3457705_I_Agona
+	SRR3457706_I_Madelia
+	SRR3457707_I_Montevideo
+	SRR3457708_I_Saintpaul
+	SRR3465344_I_Javiana
+	SRR3465406_I_Hvittingfoss
+	SRR3466983_I_Anatum
+	SRR3489818_I_Havana
+	SRR3489819_I_Agona
+	SRR3489836_I_Newport
+	SRR3490008_I_Braenderup
+	SRR3490009_I_Typhimurium_var_O_5_
+	SRR3497910_I_Aberdeen
+	SRR3497912_I_Cerro
+	SRR3497944_I_Senftenberg
+	SRR3554456_I_Typhi
+	SRR3554466_I_Typhi
+	SRR3712453_IV__IV_O_43_z4_z23_
+	SRR497733_I_Bareilly
+	SRR498276_I_Bareilly
+	SRR500495_I_Bareilly
+	SRR5105539_I_Kotte
+	SRR5352537_I_Othmarschen
+	SRR5352538_I_Saintpaul
+	SRR5353139_I_Newport
+	SRR5366657_I_Paratyphi_B_monophasic_
+	SRR5366666_I_Paratyphi_B_monophasic_
+	SRR6365760_I_Montevideo
+	SRR648840_I_Newport
+	SRR949371_I_Holcomb
+	SRR949512_I_Paratyphi_B
+	SRS2605991_I_Newport
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (BOV_ANAT_39_02-21-08_R8-0842[&!color=#ff0000]:4.0E-5,(((BOV_ANAT_39_02-21-08_R8-0847[&!color=#ff0000]:0.0,ENV_ANAT_39_12-03-08_R8-2860[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,ENV_ANAT_39_11-13-07_R6-0928[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,ENV_ANAT_39_11-13-07_R6-0929[&!color=#ff0000]:0.0)[&!color=#ff0000]:2.0E-6,(((((((BOV_ANAT_56_04-19-08_R8-0968[&!color=#ff0000]:4.0E-5,((((BOV_ANAT_56_04-19-08_R8-0969[&!color=#ff0000]:0.0,ENV_ANAT_56_03-25-09_R8-3652[&!color=#ff0000]:0.0)[&!color=#ff0000]:0.0,ENV_ANAT_56_04-18-08_R8-0907[&!color=#ff0000]:0.0)[&!color=#ff0000]:2.0E-6,ENV_ANAT_56_02-22-08_R8-0350[&!color=#ff0000]:2.0E-6)[&label=69,!color=#ff0000]:2.0E-6,ENV_ANAT_56_03-25-09_R8-3653[&!color=#ff0000]:4.0E-5)[&label=89,!color=#ff0000]:3.0E-6)[&label=100,!color=#ff0000]:4.0E-5,ENV_ANAT_56_06-12-08_R8-1402[&!color=#ff0000]:4.0E-5)[&label=99,!color=#ff0000]:2.0E-6,SRR3466983_I_Anatum:2.0E-6)[&label=100,!color=#ff0000]:4.0E-5,((((((((((((((((((((((((((((((BOV_CERO_35_10-02-08_R8-2685[&!color=#009999]:0.0,ENV_CERO_62_04-16-09_R8-3664[&!color=#009999]:0.0)[&!color=#009999]:0.0,ENV_CERO_62_07-22-08_R8-1631[&!color=#009999]:0.0)[&!color=#009999]:0.0,ENV_CERO_62_12-11-08_R8-3138[&!color=#009999]:0.0)[&!color=#009999]:0.0,ENV_CERO_62_01-22-09_R8-3412[&!color=#009999]:0.0)[&!color=#009999]:0.0,ENV_CERO_62_03-05-09_R8-3445[&!color=#009999]:0.0)[&!color=#009999]:0.0,ENV_CERO_62_07-22-08_R8-1632[&!color=#009999]:0.0)[&!color=#009999]:0.0,ENV_CERO_62_07-09-09_R8-4030[&!color=#009999]:0.0)[&!color=#009999]:0.0,ENV_CERO_62_09-03-08_R8-2026[&!color=#009999]:0.0)[&!color=#009999]:0.0,ENV_CERO_62_11-12-08_R8-2852[&!color=#009999]:0.0)[&!color=#009999]:0.0,ENV_CERO_62_10-14-08_R8-2818[&!color=#009999]:0.0)[&!color=#009999]:2.0E-6,BOV_CERO_62_11-12-08_R8-2903[&!color=#009999]:2.0E-6)[&label=76,!color=#009999]:2.0E-6,ENV_CERO_62_05-28-09_R8-4025[&!color=#009999]:4.1E-5)[&label=63,!color=#009999]:3.0E-6,SRR1481691_I_Cerro:8.0E-5)[&label=100]:0.006207,((SRR1562646_I_Amsterdam:4.1E-5,SRR1617360_I_Amsterdam:8.1E-5)[&label=100]:0.006336,SRR1648165_I_Telaviv:0.006905)[&label=60]:9.32E-4)[&label=56]:7.2E-4,(SRR3137265_I_Orion:0.005546,(SRR3286755_I_Lexington:1.67E-4,SRR3372428_I_Lexington:7.7E-5)[&label=100]:0.004672)[&label=99]:0.002181)[&label=91]:0.00128,SRR1509594_I_Indiana:0.006753)[&label=30]:8.06E-4,((((((((SRR1041492_I_Veneziana:0.005292,SRR1171461_I_Lomalinda:0.005894)[&label=100]:0.001792,SRR1048316_I_Blijdorp:0.006034)[&label=95]:9.05E-4,SRR1548457_I_Woodinville:0.005529)[&label=100]:0.002689,(SRR3554456_I_Typhi:1.63E-4,SRR3554466_I_Typhi:2.03E-4)[&label=100]:0.011244)[&label=100]:0.001996,SRR3115982_I_Mikawasima:0.006585)[&label=100]:6.08E-4,SRR1996173_I_Simi:0.006418)[&label=97]:0.001117,((SRR1068296_I_Louga:0.006862,SRR2163259_I_Stanleyville:0.006416)[&label=90]:8.68E-4,SRR1745545_I_Mkamba:0.00701)[&label=97]:8.17E-4)[&label=100]:0.001254,((SRR2032530_I_Kiambu:4.1E-5,SRR3229337_I_Kiambu:4.1E-5)[&label=100]:0.007047,SRR2133205_I_Adelaide:0.007269)[&label=85]:8.84E-4)[&label=31]:6.38E-4)[&label=97]:4.35E-4,SRR1292239_I_Kintambo:0.008187)[&label=2]:1.14E-4,((((((((((((((((((((((((((((((((((((((((BOV_KENT_14_11-06-07_R6-0942[&!color=#ff8000]:0.0,ENV_KENT_42_01-17-08_R8-0191[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,BOV_KENT_16_04-03-08_R8-0967[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,BOV_KENT_17_02-12-08_R8-0823[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_19_07-21-08_R8-1644[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,BOV_KENT_19_11-19-07_R6-0966[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_42_07-23-08_R8-1640[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_16_11-11-08_R8-2848[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_19_03-13-08_R8-0817[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_17_07-27-08_R8-1641[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_16_12-04-07_R8-0061[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_14_08-30-08_R8-2016[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,BOV_KENT_42_03-13-08_R8-0863[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,BOV_KENT_16_05-21-08_R8-1485[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_17_09-10-08_R8-2033[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_42_08-19-08_R8-2009[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,BOV_KENT_17_12-12-07_R8-0211[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_19_01-16-08_R8-0168[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_16_09-09-08_R8-2031[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_19_10-02-08_R8-2813[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_19_04-28-08_R8-0916[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_17_03-11-08_R8-0814[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_19_04-28-08_R8-0917[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,SRR1238783_I_Kentucky[&!color=#003333]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_42_04-23-08_R8-0913[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_14_10-11-07_R6-0798[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_42_04-23-08_R8-0914[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_17_03-11-08_R8-0815[&!color=#ff8000]:0.0)[&!color=#ff8000]:0.0,ENV_KENT_42_09-17-08_R8-2236[&!color=#ff8000]:0.0)[&!color=#ff8000]:2.0E-6,BOV_KENT_14_12-13-07_R8-0083[&!color=#ff8000]:2.0E-6)[&label=26,!color=#ff8000]:2.0E-6,(((BOV_KENT_16_02-13-08_R8-0836[&!color=#ff8000]:4.1E-5,ENV_KENT_14_02-14-08_R8-0344[&!color=#ff8000]:4.1E-5)[&label=47,!color=#ff8000]:2.0E-6,ENV_KENT_17_06-17-08_R8-1405[&!color=#ff8000]:4.1E-5)[&label=13,!color=#ff8000]:2.0E-6,(BOV_KENT_16_02-13-08_R8-0838[&!color=#ff8000]:4.1E-5,ENV_KENT_42_11-15-07_R6-0935[&!color=#ff8000]:4.1E-5)[&label=18,!color=#ff8000]:2.0E-6)[&label=7,!color=#ff8000]:2.0E-6)[&label=15,!color=#ff8000]:2.0E-6,BOV_KENT_17_11-07-07_R6-0957[&!color=#ff8000]:4.1E-5)[&label=43,!color=#ff8000]:2.0E-6,ENV_KENT_17_10-11-07_R6-1000[&!color=#ff8000]:8.1E-5)[&label=100,!color=#ff8000]:0.005922,(SRR1091080_I_Duesseldorf:8.0E-5,(SRR3198620_I_Albany:2.0E-6,SRR3330381_I_Albany:2.0E-6)[&label=100]:4.0E-5)[&label=100]:0.006825)[&label=91]:0.001137,(((SRR1198893_I_Labadi:3.0E-6,SRR1198918_I_Labadi:3.0E-6)[&label=100]:0.006229,(SRR1980620_I_Benue:3.0E-6,SRR1980627_I_Benue:2.0E-6)[&label=100]:0.00607)[&label=82]:7.24E-4,((SRR1264961_I_Apeyeme:0.005757,SRR1726160_I_Fresno:0.006064)[&label=91]:8.43E-4,(SRR3457642_I_Takoradi:3.0E-6,SRR3457645_I_Takoradi:3.0E-6)[&label=100]:0.005161)[&label=89]:5.21E-4)[&label=14]:3.16E-4)[&label=5]:3.82E-4,((((((SRR1041519_I_Agoueve:8.1E-5,SRR3438082_I_Cubana:2.0E-6)[&label=100]:0.006264,SRR1170861_I_Haduna:0.007277)[&label=21]:6.45E-4,(SRR1920229_I_Molade:8.0E-5,SRR2911002_I_Molade:2.0E-6)[&label=100]:0.007122)[&label=16]:4.62E-4,SRR1048286_I_Mathura:0.007313)[&label=11]:4.02E-4,((SRR1560603_I_O_50_y_:2.0E-6,SRR2585436_I_O_50_y_:2.0E-6)[&label=100]:0.00687,(SRR3133017_I_Cerro:0.006647,SRR3497912_I_Cerro:0.006728)[&label=99]:9.96E-4)[&label=16]:4.08E-4)[&label=38]:2.94E-4,(((SRR1659020_I_Weltevreden:1.64E-4,(SRR2025274_I_Weltevreden:4.1E-5,SRR3372433_I_Weltevreden:2.0E-6)[&label=100]:4.1E-5)[&label=100]:0.003565,(((SRR1812804_I_Plymouth:1.22E-4,SRR3242207_I_Plymouth:2.02E-4)[&label=100]:0.00238,SRR3242208_I_Stockholm:0.002443)[&label=100]:9.78E-4,(SRR3242205_I_Teddington:3.0E-6,SRR3372432_I_Teddington:4.1E-5)[&label=100]:0.004056)[&label=100]:6.96E-4)[&label=100]:0.003212,SRR3497944_I_Senftenberg:0.005585)[&label=34]:9.3E-4)[&label=3]:3.29E-4)[&label=4]:2.66E-4,(SRR1448927_I_Carno:0.005896,SRR1946936_I_Yoruba:0.006721)[&label=15]:6.71E-4)[&label=42]:4.79E-4,((SRR1910747_I_Suelldorf:0.005709,SRR3344810_I_Kedougou:0.005731)[&label=95]:7.94E-4,SRR2127518_I_Yenne:0.005574)[&label=45]:5.09E-4)[&label=18]:2.57E-4,(SRR1522093_I_Tamberma:0.005955,(SRR2039108_I_Livingstone:4.0E-5,SRR3199559_I_Livingstone:3.0E-6)[&label=100]:0.00692)[&label=78]:0.001167)[&label=13]:7.8E-5,((((((BOV_MELA_01_10-02-07_R6-0951[&!color=#0000ff]:8.1E-5,(((((((((((((((((((BOV_MELA_01_10-30-07_R6-0802[&!color=#0000ff]:0.0,SRR1272507_I_Meleagridis:0.0)[&!color=#0000ff]:0.0,ENV_MELA_11_07-18-08_R8-1626[&!color=#0000ff]:0.0)[&!color=#0000ff]:0.0,ENV_MELA_01_06-13-08_R8-1406[&!color=#0000ff]:0.0)[&!color=#0000ff]:0.0,ENV_MELA_11_10-31-07_R6-0801[&!color=#0000ff]:0.0)[&!color=#0000ff]:0.0,BOV_MELA_01_12-11-07_R8-0198[&!color=#0000ff]:0.0)[&!color=#0000ff]:0.0,ENV_MELA_01_NA-NA-NA_R8-0346[&!color=#0000ff]:0.0)[&!color=#0000ff]:0.0,ENV_MELA_01_04-04-08_R8-0901[&!color=#0000ff]:0.0)[&!color=#0000ff]:0.0,ENV_MELA_01_10-22-08_R8-2829[&!color=#0000ff]:0.0)[&!color=#0000ff]:0.0,ENV_MELA_01_07-23-08_R8-1633[&!color=#0000ff]:0.0)[&!color=#0000ff]:0.0,ENV_MELA_01_01-10-08_R8-0165[&!color=#0000ff]:0.0)[&!color=#0000ff]:0.0,ENV_MELA_01_05-08-08_R8-1381[&!color=#0000ff]:0.0)[&!color=#0000ff]:0.0,ENV_MELA_11_09-28-08_R8-2244[&!color=#0000ff]:0.0)[&!color=#0000ff]:0.0,ENV_MELA_11_10-30-08_R8-2834[&!color=#0000ff]:0.0)[&!color=#0000ff]:0.0,ENV_MELA_01_09-10-08_R8-2233[&!color=#0000ff]:0.0)[&!color=#0000ff]:0.0,ENV_MELA_11_10-30-08_R8-2836[&!color=#0000ff]:0.0)[&!color=#0000ff]:0.0,ENV_MELA_11_08-25-08_R8-2010[&!color=#0000ff]:0.0)[&!color=#0000ff]:0.0,ENV_MELA_01_10-02-07_R6-0938[&!color=#0000ff]:0.0)[&!color=#0000ff]:2.0E-6,BOV_MELA_01_10-30-07_R6-0810[&!color=#0000ff]:2.0E-6)[&label=91,!color=#0000ff]:2.0E-6,BOV_MELA_01_10-30-07_R6-0803[&!color=#0000ff]:4.1E-5)[&label=93,!color=#0000ff]:2.0E-6)[&label=98,!color=#0000ff]:4.1E-5,SRR1299400_I_Meleagridis_var_O_15_:1.21E-4)[&label=100]:0.00581,SRR2096628_I_Lille:0.006454)[&label=38]:0.001432,((SRR1481638_I_Chailey:3.0E-6,SRR2585560_I_Corvallis:8.1E-5)[&label=100]:0.005602,(SRR1578491_I_Ealing:4.0E-5,SRR1985970_I_Ealing:3.0E-6)[&label=100]:0.005131)[&label=22]:7.95E-4)[&label=23]:2.09E-4,((((SRR1548420_I_Vinohrady:0.006956,((SRR1973629_I_Altona:3.0E-6,SRR3027078_I_Altona:3.0E-6)[&label=100]:0.005617,(SRR3229339_I_Havana:0.005074,SRR3489818_I_Havana:0.004749)[&label=100]:0.001636)[&label=84]:6.56E-4)[&label=70]:3.0E-4,SRR3453120_I_Mbandaka:0.006403)[&label=83]:7.27E-4,(SRR1773004_I_Duesseldorf:0.006277,(SRR3219163_I_Alachua:4.1E-5,SRR3289797_I_Alachua:4.1E-5)[&label=100]:0.005213)[&label=88]:0.001045)[&label=85]:7.47E-4,(SRR1916117_I_Llandoff:0.004982,SRR2173987_I_Cannstatt:0.004789)[&label=100]:0.002563)[&label=93]:8.51E-4)[&label=19]:1.4E-4,((((SRR1186220_I_Tennessee:0.003522,(SRR3191435_I_Tennessee:1.21E-4,SRR3271930_I_Tennessee:8.1E-5)[&label=100]:0.00378)[&label=100]:0.002842,SRR3344493_I_Krefeld:0.006953)[&label=78]:5.07E-4,(SRR3457705_I_Agona:4.0E-5,SRR3489819_I_Agona:4.1E-5)[&label=100]:0.006552)[&label=75]:6.8E-4,SRR3223735_I_Havana:0.00739)[&label=22]:4.39E-4)[&label=44]:5.75E-4)[&label=98]:8.53E-4,(((((((((((ENV_MINN_62_09-03-08_R8-2025[&!color=#ff00ff]:1.2E-4,SRR3453116_I_Minnesota:8.0E-5)[&label=100]:0.00449,(SRR1810856_I_Magwa:3.0E-6,SRR1810876_I_Magwa:3.0E-6)[&label=100]:0.003074)[&label=100]:9.81E-4,SRR1774076_I_Florida:0.005986)[&label=98]:7.97E-4,(SRR3379319_I_Oranienburg:3.0E-6,SRR3438086_I_Oranienburg:2.0E-6)[&label=100]:0.004111)[&label=91]:7.9E-4,(((((SRR1002807_I_Saphra:7.06E-4,SRR2070975_I_Saphra:5.52E-4)[&label=100]:0.003774,SRR1481667_I_Chandans:0.004748)[&label=99]:8.9E-4,SRR2993253_I_Butantan:0.005763)[&label=87]:5.52E-4,(((((((((SRR1097804_I_Welikade:0.003299,SRR3438069_I_Gaminara:0.003)[&label=100]:0.001307,SRR5352537_I_Othmarschen:0.005331)[&label=81]:8.45E-4,((SRR1481653_I_Kokomlemle:2.0E-6,SRR1509580_I_Kokomlemle:3.0E-6)[&label=100]:0.004156,((((SRR1582199_I_Fulica:0.002983,(SRR2971131_I_Sandiego:2.01E-4,SRR3100232_I_Sandiego:3.62E-4)[&label=100]:6.99E-4)[&label=100]:7.59E-4,(SRR2583944_I_Reading:8.1E-5,SRR2939005_I_Reading:4.0E-5)[&label=100]:0.002472)[&label=100]:4.02E-4,(((SRR1917482_I_Eastbourne:0.001555,SRR3242164_I_Reading:4.7E-4)[&label=100]:6.17E-4,SRR2124417_I_Chester:0.001243)[&label=87]:4.15E-4,SRR3223148_I_Chester:0.002716)[&label=100]:0.001001)[&label=100]:8.8E-4,SRR3191398_I_Brandenburg:0.002805)[&label=100]:0.001703)[&label=99]:0.001063)[&label=55]:3.19E-4,(((SRR1269367_I_Nottingham:1.62E-4,SRR2156598_I_Nottingham:2.42E-4)[&label=100]:0.005197,((SRR3173782_I_Johannesburg:4.1E-5,SRR3191389_I_Johannesburg:8.1E-5)[&label=100]:4.45E-4,SRR3173787_I_Urbana:4.94E-4)[&label=100]:0.003922)[&label=52]:8.66E-4,SRR1687200_I_Konstanz:0.004937)[&label=68]:7.35E-4)[&label=64]:4.35E-4,(((SRR1158161_I_Mountpleasant:0.004027,(SRR2005900_I_Colobane:3.0E-6,SRR2005905_I_Colobane:3.0E-6)[&label=100]:0.005488)[&label=36]:8.14E-4,((SRR1982204_I_Barranquilla:2.0E-6,SRR3286731_I_Barranquilla:2.0E-6)[&label=100]:0.00499,(SRR2124319_I_Sundsvall:0.001191,SRR2993259_I_Sundsvall:6.43E-4)[&label=100]:0.00309)[&label=39]:7.66E-4)[&label=38]:7.9E-4,((SRR1654985_I_Charity:3.6E-4,SRR1745620_I_Charity:3.19E-4)[&label=100]:0.003758,(SRR2482399_I_Caracas:8.0E-5,SRR2482400_I_Caracas:4.0E-5)[&label=100]:0.004166)[&label=97]:9.18E-4)[&label=7]:4.14E-4)[&label=9]:2.2E-4,(((SRR1805616_I_Muenster:3.0E-6,(SRR3453124_I_Muenster:3.0E-6,SRR3453126_I_Muenster:3.0E-6)[&label=100]:1.21E-4)[&label=52]:3.0E-6,SRR3173397_I_Muenster:4.0E-5)[&label=100]:0.005154,((SRR2534151_I_Give:0.001689,(SRR3183970_I_Bredeney:1.14E-4,(SRR3224095_I_Schwarzengrund:8.0E-5,SRR3242145_I_Schwarzengrund:3.0E-6)[&label=100]:7.73E-4)[&label=100]:9.26E-4)[&label=100]:0.001143,(SRR3098722_I_Bredeney:4.0E-5,SRR3379327_I_Bredeney:3.0E-6)[&label=100]:0.001539)[&label=100]:0.003658)[&label=43]:5.76E-4)[&label=8]:2.43E-4,(((((SRR1609677_I_Carrau:4.41E-4,(SRR1805578_I_Tucson:2.4E-4,SRR2102462_I_Tucson:2.4E-4)[&label=99]:8.1E-5)[&label=53]:2.0E-6,SRR2127514_I_Carrau:4.82E-4)[&label=99]:2.42E-4,(SRR3438062_I_Madelia:8.1E-5,SRR3457706_I_Madelia:1.21E-4)[&label=100]:8.11E-4)[&label=100]:0.001072,SRR3173783_I_Bahrenfeld:9.69E-4)[&label=100]:0.002178,((SRR1687201_I_Onderstepoort:2.0E-6,SRR2585561_I_Bahrenfeld:2.0E-6)[&label=100]:4.0E-5,SRR2533416_I_Onderstepoort:2.0E-6)[&label=100]:0.003548)[&label=100]:0.002211)[&label=32]:3.64E-4,(SRR2728270_I_Teko:0.005576,(((SRR3137524_I_Poona:0.001677,SRR3183968_I_Poona:0.001398)[&label=100]:7.69E-4,((SRR3229342_I_Poona:3.0E-6,SRR3286725_I_Poona:2.0E-6)[&label=100]:0.001614,SRR3286752_I_Poona:7.65E-4)[&label=100]:0.001274)[&label=100]:0.003122,(SRR3242174_I_Rubislaw:0.003314,SRR3316323_I_Rubislaw:0.002904)[&label=100]:0.001807)[&label=96]:7.39E-4)[&label=41]:6.98E-4)[&label=86]:2.69E-4,(SRR1097810_I_Eastbourne:0.005094,((SRR1448866_I_Javiana:2.09E-4,SRR3465344_I_Javiana:3.16E-4)[&label=100]:0.002227,(SRR3173533_I_Javiana:4.83E-4,SRR3229333_I_Javiana:2.05E-4)[&label=100]:0.00139)[&label=100]:0.002001)[&label=100]:0.002283)[&label=80]:2.42E-4)[&label=14]:3.4E-4,((SRR1481630_I_Carmel:0.004933,((((SRR1812800_I_Montevideo:2.15E-4,SRR3438090_I_Montevideo:2.9E-5)[&label=100]:0.002691,SRR2039095_I_Montevideo:0.003024)[&label=100]:9.12E-4,SRR2039125_I__O_g_m_s_t_:0.00327)[&label=100]:0.001157,(SRR3400001_I_Montevideo:2.0E-6,SRR6365760_I_Montevideo:3.0E-6)[&label=100]:0.003244)[&label=100]:0.001465)[&label=98]:6.6E-4,((SRR1481680_I_Arechavaleta:0.002207,((SRR1778033_I_Miami:5.96E-4,SRR3057114_I_Panama:0.001161)[&label=100]:3.94E-4,SRR3173549_I_Durban:0.002446)[&label=100]:7.83E-4)[&label=100]:0.002723,(SRR3372425_I_Pomona:4.0E-5,SRR3438084_I_Pomona:2.0E-6)[&label=100]:0.004177)[&label=99]:4.96E-4)[&label=92]:4.98E-4)[&label=76]:4.13E-4)[&label=88]:3.8E-4,((((SRR1049701_I_Miami:2.0E-4,SRR3242176_I_Miami:8.0E-5)[&label=100]:0.00443,(SRR1481655_I_Edinburg:2.0E-6,SRR1576581_I_Edinburg:2.0E-6)[&label=100]:0.004954)[&label=62]:8.34E-4,(SRR1639648_I_Warragul:0.006409,(SRR1639649_I_Telelkebir:0.001994,SRR2917928_I_Telelkebir:0.001466)[&label=100]:0.002998)[&label=1]:3.76E-4)[&label=2]:1.45E-4,SRR1805589_I_Bonariensis:0.005398)[&label=96]:4.54E-4)[&label=81]:4.73E-4,((((SRR1067624_I_Fluntern:3.5E-5,SRR2917929_I_Fluntern:8.6E-5)[&label=100]:0.005195,SRR1509593_I_Beaudesert:0.006206)[&label=99]:0.001126,(((SRR1425240_I_Farmsen:0.005731,SRR3242142_I_Hidalgo:0.005269)[&label=91]:5.65E-4,SRR3228577_I_Tempe:0.005547)[&label=88]:5.48E-4,SRR1503312_I__O_6_14_25_b_1_6_:0.007677)[&label=89]:6.23E-4)[&label=86]:4.67E-4,(((SRR1233937_I_Nottingham:2.78E-4,SRR1918953_I_Nottingham:3.22E-4)[&label=100]:0.005237,(SRR1248994_I_Nagoya:2.0E-6,SRR1638901_I_Nagoya:2.0E-6)[&label=100]:0.006425)[&label=81]:6.74E-4,(SRR1284655_I_Treforest:0.006061,(SRR1539633_I_Freetown:0.001911,SRR2533821_I_Freetown:0.001615)[&label=100]:0.003059)[&label=74]:6.78E-4)[&label=85]:6.88E-4)[&label=55]:4.28E-4)[&label=63]:4.04E-4,(((SRR1282381_I_Luciana:2.0E-6,SRR3330765_I_Luciana:4.0E-5)[&label=100]:0.004804,SRR3173797_I_Jukestown:0.004402)[&label=91]:4.68E-4,(SRR1501458_I_Kisarawe:3.0E-6,SRR1501664_I_Kisarawe:3.0E-6)[&label=100]:0.005319)[&label=90]:6.39E-4)[&label=100]:0.002586,(((((SRR1185779_I_Lingwala:0.004408,SRR1821303_I_Orientalis:0.005199)[&label=99]:7.94E-4,(SRR1425268_I_Waycross:0.004897,(SRR1653372_I_Bangkok:6.16E-4,SRR2585567_I_Bangkok:4.11E-4)[&label=100]:0.005933)[&label=94]:0.001317)[&label=87]:5.93E-4,((SRR1185808_I_Pomona:0.004093,SRR3452350_I_Ilala:0.003657)[&label=100]:0.002952,(SRR1206168_I_Buzu:2.0E-6,SRR3453156_I_Buzu:2.0E-6)[&label=100]:0.004756)[&label=97]:0.001302)[&label=87]:5.43E-4,((SRR1548408_I_Luke:0.006167,SRR3152523_I_Uzaramo:0.0048)[&label=99]:0.001085,(SRR1774072_I_Nima:0.006563,(SRR1917487_I_Kumasi:0.004879,SRR3242209_I_Solt:0.005398)[&label=99]:0.001019)[&label=94]:4.07E-4)[&label=86]:4.04E-4)[&label=98]:6.61E-4,(SRR1821287_I_Chicago:0.006801,SRR2102466_I_Hindmarsh:0.006497)[&label=85]:7.8E-4)[&label=83]:8.2E-4)[&label=99]:0.001226,((((SRR1033519_I_Memphis:0.002001,(SRR1175814_I_Troy:0.001763,SRR1618693_I_Weslaco:0.001784)[&label=98]:3.48E-4)[&label=97]:3.6E-4,SRR1553822_I_Weslaco:0.002237)[&label=100]:0.01193,(((((((SRR1181564_IIIa__IIIa_O_18_z4_z32_:4.1E-5,SRR1300728_IIIa__IIIa_O_18_z4_z32_:4.0E-5)[&label=100]:0.002914,SRR1752865_IIIa__IIIa_O_18_z4_z23_:0.003047)[&label=100]:0.201462,SRR3092110_IIIb_IIIb_O_50_r_z:0.05692)[&label=100]:0.014648,(((SRR1548438_IV__IV_O_45_g_z51_:0.00394,SRR2534078_IV__IV_O_43_z4_z23_:0.001764)[&label=100]:4.84E-4,SRR1770502_IV__IV_O_48_z4_z32_:0.00291)[&label=100]:0.001554,(SRR1693402_IV__IV_O_43_z4_z23_:8.3E-5,SRR3712453_IV__IV_O_43_z4_z23_:8.2E-5)[&label=100]:0.002784)[&label=100]:0.070639)[&label=99]:0.003785,(((((SRR1248943_II__II_O_42_b_e_n_x_z15_:9.44E-4,SRR2086557_II__II_O_42_b_e_n_x_z15_:4.62E-4)[&label=100]:0.003384,SRR1249004_II__II_O_40_z4_z24_z39_:0.00433)[&label=97]:0.001027,(SRR2075085_II_II_O_7_z6_z39:2.0E-6,SRR2075153_II_II_O_7_z6_z39:3.0E-6)[&label=100]:0.004383)[&label=99]:9.58E-4,SRR1272845_II_II_O_4_a_:0.004609)[&label=100]:0.012433,SRR2534074_II_II_O_50_z10_z6:0.031507)[&label=100]:0.0099)[&label=100]:0.0051,SRR2585491_VI__VI_O_6_14_a_z35_:0.062156)[&label=100]:0.027737,((SRR1264948_I_O_7_d_z35:0.003563,(SRR1910772_I_O_7_k_z35:0.002528,(SRR3219071_I_Westminster:0.002841,SRR5105539_I_Kotte:0.002681)[&label=100]:9.72E-4)[&label=100]:8.01E-4)[&label=100]:0.002956,((SRR1425262_I_Dortmund:2.0E-6,SRR1425278_I__O_3_10_z41_2_5_:3.0E-6)[&label=100]:0.001312,(SRR2078199_I_Portland:0.001133,SRR2133233_I__O_9_46_l_v_z35_:0.00185)[&label=100]:9.01E-4)[&label=100]:0.004338)[&label=100]:0.007581)[&label=100]:0.00277)[&label=99]:8.24E-4,SRR1188450_I__O_i_e_n_z15_:0.01256)[&label=93]:7.33E-4)[&label=84]:8.74E-4,(((SRR1448848_I_Mississippi:0.003713,(SRR2085740_I__O_47_z4_z23_:3.0E-6,SRR2124392_I__O_47_z4_z23_:3.0E-6)[&label=100]:0.004683)[&label=97]:0.001506,(SRR1687202_I_Malstatt:0.004268,SRR2086987_I_Aba:0.004381)[&label=96]:8.0E-4)[&label=99]:0.001214,SRR1509616_I_Ituri:0.005542)[&label=100]:0.002648)[&label=99]:0.001038)[&label=99]:9.15E-4)[&label=15]:7.26E-4,(SRR2124334_I_Amsterdam:0.006608,SRR3181822_I_Gamaba:0.006927)[&label=34]:0.001074)[&label=67]:4.99E-4,(((SRR2076035_I_Livingstone:4.0E-5,SRR3115972_I_Livingstone:2.0E-6)[&label=100]:0.003692,SRR3038202_I_Ohio:0.005548)[&label=100]:0.002219,SRR2173991_I_Isangi:0.006652)[&label=95]:8.14E-4)[&label=75]:6.88E-4,(((SRR1105670_I_Bispebjerg:4.17E-4,(SRR2016686_I_Abortusequi:4.0E-5,SRR2016688_I_Abortusequi:3.0E-6)[&label=100]:0.00226)[&label=100]:0.004195,SRR2016687_I_Abortusovis:0.011652)[&label=99]:0.001799,SRR1648156_I_Gera:0.006133)[&label=94]:5.0E-4)[&label=97]:7.15E-4,SRR2585563_I_Nchanga:0.006452)[&label=25]:7.29E-4,((((((((((((BOV_TYPH_17_12-12-07_R8-0208[&!color=#8000ff]:2.0E-6,((((((((((BOV_TYPH_22_01-18-08_R8-0227[&!color=#8000ff]:0.0,BOV_TYPH_22_01-18-08_R8-0271[&!color=#8000ff]:0.0)[&!color=#8000ff]:0.0,ENV_TYPH_22_01-18-08_R8-0174[&!color=#8000ff]:0.0)[&!color=#8000ff]:0.0,ENV_TYPH_22_03-14-08_R8-0820[&!color=#8000ff]:0.0)[&!color=#8000ff]:0.0,ENV_TYPH_22_12-17-07_R8-0171[&!color=#8000ff]:0.0)[&!color=#8000ff]:0.0,BOV_TYPH_22_01-18-08_R8-0273[&!color=#8000ff]:0.0)[&!color=#8000ff]:0.0,BOV_TYPH_22_01-18-08_R8-0231[&!color=#8000ff]:0.0)[&!color=#8000ff]:0.0,BOV_TYPH_22_03-14-08_R8-0865[&!color=#8000ff]:0.0)[&!color=#8000ff]:0.0,BOV_TYPH_22_01-18-08_R8-0229[&!color=#8000ff]:0.0)[&!color=#8000ff]:2.0E-6,BOV_TYPH_22_01-18-08_R8-0228[&!color=#8000ff]:2.0E-6)[&label=100,!color=#8000ff]:4.0E-5,((((((((ENV_TCOP_25_04-01-08_R8-0896[&!color=#6666ff]:0.0,ENV_TYPH_25_07-01-08_R8-1622[&!color=#8000ff]:0.0)[&!color=#8000ff]:0.0,ENV_TYPH_25_05-01-08_R8-1385[&!color=#8000ff]:0.0)[&!color=#8000ff]:0.0,ENV_TCOP_25_09-03-08_R8-2017[&!color=#6666ff]:0.0)[&!color=#6666ff]:0.0,ENV_TCOP_25_07-29-08_R8-1642[&!color=#6666ff]:0.0)[&!color=#6666ff]:2.0E-6,(ENV_TCOP_25_04-01-08_R8-0898[&!color=#6666ff]:2.0E-6,ENV_TYPH_25_07-01-08_R8-1621[&!color=#8000ff]:4.0E-5)[&label=13,!color=#6666ff]:2.0E-6)[&label=65,!color=#6666ff]:2.0E-6,ENV_TCOP_25_07-01-08_R8-1623[&!color=#6666ff]:4.0E-5)[&label=100,!color=#6666ff]:7.9E-5,SRR2534118_I_Typhimurium_var_O_5_:2.37E-4)[&label=100]:2.0E-6,(SRR2124377_I__O_4_5_12_i_:2.0E-6,SRR3111263_I__O_4_12_i_:2.0E-6)[&label=100]:4.0E-5)[&label=100]:7.9E-5)[&label=63,!color=#8000ff]:2.0E-6)[&label=63,!color=#8000ff]:2.0E-6,(((((((BOV_TYPH_25_01-15-08_R8-0233[&!color=#8000ff]:0.0,ENV_TYPH_25_10-19-07_R6-0792[&!color=#8000ff]:0.0)[&!color=#8000ff]:0.0,BOV_TYPH_25_11-20-07_R6-0983[&!color=#8000ff]:0.0)[&!color=#8000ff]:0.0,ENV_TYPH_25_10-19-07_R6-0794[&!color=#8000ff]:0.0)[&!color=#8000ff]:0.0,ENV_TYPH_25_10-19-07_R6-0793[&!color=#8000ff]:0.0)[&!color=#8000ff]:0.0,BOV_TYPH_25_11-20-07_R6-0979[&!color=#8000ff]:0.0)[&!color=#8000ff]:2.0E-6,BOV_TYPH_25_11-20-07_R6-0978[&!color=#8000ff]:2.0E-6)[&label=100,!color=#8000ff]:2.0E-6,ENV_TYPH_25_03-07-08_R8-0812[&!color=#8000ff]:4.0E-5)[&label=100,!color=#8000ff]:3.9E-5)[&label=98,!color=#8000ff]:3.9E-5,SRR3490009_I_Typhimurium_var_O_5_:3.17E-4)[&label=100]:0.002354,(SRR1188473_I__O_i_1_2_:1.2E-4,(SRR1687209_I_Typhimurium:3.0E-6,SRR2925141_I_Typhimurium:4.0E-5)[&label=100]:1.2E-4)[&label=100]:0.001255)[&label=100]:0.002093,((SRR1481652_I_Haifa:2.21E-4,SRR2960793_I_Saintpaul:7.94E-4)[&label=100]:0.002513,(SRR2979535_I_Saintpaul:9.51E-4,(SRR3457708_I_Saintpaul:4.0E-5,SRR5352538_I_Saintpaul:2.0E-6)[&label=100]:3.17E-4)[&label=100]:0.002436)[&label=99]:6.15E-4)[&label=99]:8.22E-4,(SRR1107489_I_Coeln:8.0E-5,SRR1481651_I_Coeln:3.0E-6)[&label=100]:0.002385)[&label=100]:0.001958,((SRR1548394_I_Stanleyville:0.002418,(SRR3182177_I_Stanleyville:2.0E-6,SRR3182178_I_Stanleyville:2.0E-6)[&label=100]:0.001962)[&label=100]:0.00131,(SRR1767807_I_Heidelberg:4.0E-5,SRR3400013_I_Heidelberg:8.0E-5)[&label=100]:0.001693)[&label=100]:0.003718)[&label=95]:0.001351,(SRR2102502_I_Infantis:0.007444,SRR3465406_I_Hvittingfoss:0.006859)[&label=65]:2.91E-4)[&label=71]:4.61E-4,(((SRR1548439_I_Bietri:4.0E-5,SRR1810525_I_Bietri:4.0E-5)[&label=100]:0.005375,(((((SRR1653355_I_Uganda:2.0E-6,SRR1653431_I_Uganda:2.0E-6)[&label=100]:2.0E-6,SRR3316319_I_Uganda:4.0E-5)[&label=100]:8.0E-5,SRR3210382_I_Uganda:2.0E-6)[&label=100]:6.13E-4,(SRR3174972_I_Zanzibar:2.0E-6,SRR3174986_I_Zanzibar:2.0E-6)[&label=100]:1.96E-4)[&label=100]:0.004244,SRR1918981_I_Champaign:0.003961)[&label=100]:0.001262)[&label=100]:0.001465,(SRR3173785_I_Wandsworth:1.43E-4,SRR3372414_I_Wandsworth:1.38E-4)[&label=100]:0.005774)[&label=100]:0.001793)[&label=74]:6.65E-4,((((SRR1288359_I_Ouakam:8.1E-5,SRR1623018_I_Ouakam:2.0E-6)[&label=100]:0.005262,SRR3457707_I_Montevideo:0.00619)[&label=99]:0.001226,SRR497733_I_Bareilly:0.007053)[&label=97]:0.001342,((SRR1535705_I_Telhashomer:0.005658,SRR1720755_I_Vitkin:0.004904)[&label=78]:9.45E-4,SRR3173781_I_Oslo:0.007882)[&label=50]:3.45E-4)[&label=45]:4.73E-4)[&label=52]:3.17E-4,(((((SRR1055751_I_Kibusi:2.0E-6,SRR1158067_I_Euston:2.0E-6)[&label=100]:0.00442,SRR1812876_I_Kibusi:0.003468)[&label=100]:0.002851,((SRR1777993_I_Augustenborg:6.03E-4,SRR3199556_I_Mgulani:1.21E-4)[&label=97]:3.6E-5,SRR2107092_I_Mgulani:8.5E-5)[&label=100]:0.006148)[&label=99]:0.001094,(SRR1068335_I__O_47_z4_z23_:0.006409,SRR1427707_I_Ramatgan:0.006674)[&label=90]:5.72E-4)[&label=77]:7.41E-4,((SRR1292244_I_Istanbul:0.002399,(SRR1646570_I_Chailey:2.0E-6,SRR1646585_I_Chailey:3.0E-6)[&label=100]:0.002733)[&label=100]:0.003597,((((SRR1732583_I_Richmond:1.61E-4,SRR2000239_I_Richmond:2.0E-6)[&label=100]:1.73E-4,(SRR3379318_I_Bareilly:3.0E-6,SRR498276_I_Bareilly:2.0E-6)[&label=100]:2.31E-4)[&label=100]:7.15E-4,SRR3242170_I_Bareilly:0.00261)[&label=100]:0.00128,(SRR3027391_I_Bareilly:2.0E-6,SRR500495_I_Bareilly:4.0E-5)[&label=100]:0.002421)[&label=100]:0.00347)[&label=91]:8.21E-4)[&label=13]:2.13E-4)[&label=17]:2.13E-4,(((((SRR1265010_I_Kisarawe:2.0E-6,SRR1287030_I_Kisarawe:2.0E-6)[&label=100]:0.00557,((SRR1665135_I_Richmond:8.0E-5,SRR2025297_I_Richmond:8.0E-5)[&label=100]:0.00297,SRR3379316_I_Mikawasima:0.003033)[&label=100]:0.003427)[&label=73]:6.97E-4,((SRR1562609_I_Mikawasima:2.0E-6,SRR1562661_I_Mikawasima:2.0E-6)[&label=100]:0.005619,SRR1793255_I_Nessziona:0.006446)[&label=73]:9.98E-4)[&label=83]:9.15E-4,((SRR1511571_I_Typhisuis:1.46E-4,SRR2016691_I_Choleraesuis_var_Kunzendorf:2.11E-4)[&label=100]:0.008575,(SRR1654952_I_Michigan:2.0E-6,SRR2751265_I_Michigan:1.21E-4)[&label=100]:0.00689)[&label=94]:8.0E-4)[&label=73]:4.26E-4,((SRR1772987_I_Milwaukee:3.0E-6,SRR1773000_I_Milwaukee:2.0E-6)[&label=100]:0.008644,(SRR1816829_I_Hermannswerder:0.00616,SRR3242165_I_Hvittingfoss:0.00497)[&label=99]:0.001006)[&label=83]:5.6E-4)[&label=72]:2.51E-4)[&label=18]:4.21E-4)[&label=18]:2.84E-4,(((SRR1027783_I_Inverness:7.24E-4,SRR1767804_I_Inverness:2.49E-4)[&label=100]:0.007798,((SRR1481631_I_Colindale:0.002461,SRR1636926_I_Colindale:0.002398)[&label=100]:0.001592,(SRR3088918_I_Virchow:0.002045,(SRR3199410_I_Virchow:2.89E-4,SRR3228581_I_Virchow:0.001169)[&label=100]:5.99E-4)[&label=100]:0.001378)[&label=100]:0.003728)[&label=34]:6.37E-4,SRR1481657_I_Amoutive:0.007361)[&label=28]:5.76E-4)[&label=49]:3.11E-4,(((((SRR1292306_I_Kingabwa:7.91E-4,SRR3453163_I_Kingabwa:0.001058)[&label=100]:0.005613,(SRR1422623_I_Matopeni:0.001049,(SRR1636889_I_Matopeni:8.0E-5,SRR2533808_I_Matopeni:8.0E-5)[&label=100]:0.001175)[&label=100]:0.004655)[&label=98]:0.00103,(SRR1810861_I_Goulfey:0.009777,(SRR3210387_I_Norwich:4.0E-5,SRR3210392_I_Norwich:4.0E-5)[&label=100]:0.006113)[&label=96]:0.001451)[&label=59]:5.75E-4,(((SRR1481701_I_Baildon:0.001077,SRR2960582_I_Baildon:9.0E-4)[&label=100]:0.00383,SRR1816816_I_Kirkee:0.006902)[&label=98]:9.19E-4,(((SRR1767826_I_Manhattan:2.0E-6,SRR2482398_I_Manhattan:1.19E-4)[&label=100]:0.003609,SRR3453162_I_Muenchen:0.003057)[&label=100]:0.002211,(SRR5353139_I_Newport:3.0E-6,SRS2605991_I_Newport:2.0E-6)[&label=100]:0.004676)[&label=100]:0.001805)[&label=85]:5.69E-4)[&label=53]:5.69E-4,(((((SRR1509612_I_Holcomb:4.0E-5,SRR949371_I_Holcomb:2.0E-6)[&label=100]:0.001403,(SRR1604925_I_Tallahassee:2.0E-6,SRR3046424_I_Tallahassee:1.58E-4)[&label=100]:0.001319)[&label=100]:0.00493,(SRR1653412_I_Astridplein:0.006296,(SRR2075998_I_Tananarive:2.8E-4,SRR3191379_I_Brunei:2.4E-4)[&label=100]:0.006185)[&label=95]:7.43E-4)[&label=93]:7.6E-4,((SRR1653383_I_Newport:1.57E-4,SRR3489836_I_Newport:7.8E-5)[&label=93]:2.0E-6,SRR648840_I_Newport:5.12E-4)[&label=100]:0.005472)[&label=85]:8.76E-4,(((SRR1821296_I_Hartford:9.1E-5,SRR2751902_I_Hartford:2.7E-5)[&label=100]:0.005293,(SRR3223729_I_Thompson:8.0E-5,SRR3340449_I_Thompson:1.19E-4)[&label=100]:0.005299)[&label=95]:0.001124,((SRR1982175_I_Kottbus:0.001966,SRR3137264_I_Kottbus:0.002493)[&label=100]:0.003787,SRR3137277_I_Bovismorbificans:0.005231)[&label=100]:0.002031)[&label=85]:6.39E-4)[&label=68]:5.4E-4)[&label=48]:2.51E-4)[&label=71]:2.86E-4,(((SRR1029566_I_Maastricht:0.005409,(SRR2107131_I_Anfo:2.0E-6,SRR2143466_I_Anfo:2.0E-6)[&label=100]:0.004815)[&label=100]:0.002082,(((SRR1636927_I_Perth:2.0E-6,SRR1778039_I_Perth:4.0E-5)[&label=100]:0.003733,SRR2054385_I_Roan:0.004375)[&label=100]:0.001883,(SRR1694045_I_Salford:0.006145,(SRR3199543_I_Braenderup:8.0E-5,SRR3490008_I_Braenderup:2.0E-6)[&label=100]:0.005028)[&label=97]:0.001069)[&label=38]:2.79E-4)[&label=34]:6.68E-4,(((SRR1185841_I_Ramatgan:0.006045,(SRR1257310_I_Lansing:2.0E-6,SRR2086583_I_Lansing:3.0E-6)[&label=100]:0.006755)[&label=78]:8.02E-4,(((SRR2016693_I_Gallinarum:0.003352,(SRR3306209_I_Enteritidis:1.58E-4,SRR3457704_I_Enteritidis:7.9E-5)[&label=100]:5.24E-4)[&label=100]:0.001759,SRR3173528_I_Dublin:0.004018)[&label=100]:0.002342,(SRR3115185_I_Berta:3.0E-6,SRR3330230_I_Berta:2.0E-6)[&label=100]:0.005029)[&label=100]:0.002148)[&label=55]:4.93E-4,((SRR1705586_I_London:0.003141,SRR2585562_I_Nchanga:0.003578)[&label=100]:0.00266,SRR3438075_I_Kottbus:0.005733)[&label=100]:0.001377)[&label=27]:5.45E-4)[&label=52]:5.43E-4)[&label=55]:2.44E-4,(((SRR1055750_I_Amager:7.12E-4,SRR2534125_I_Amager:6.38E-4)[&label=100]:0.002903,((SRR1212305_I_Nchanga:2.0E-6,SRR1212361_I_Nchanga:2.0E-6)[&label=99]:3.0E-6,(SRR2532676_I_Freiburg:2.0E-6,SRR2533415_I_Freiburg:2.0E-6)[&label=100]:8.2E-5)[&label=100]:0.004112)[&label=100]:0.002759,(((((SRR1157590_I_Paratyphi_B_monophasic_:3.62E-4,(SRR1515011_I_Paratyphi_B_monophasic_:4.84E-4,SRR1916082_I_Paratyphi_B:5.25E-4)[&label=100]:2.0E-6)[&label=100]:0.002078,(SRR1515000_I_Paratyphi_B:1.61E-4,SRR2925142_I_Paratyphi_B:1.21E-4)[&label=100]:0.002278)[&label=100]:0.002513,(SRR1292317_I_Paratyphi_B:2.0E-6,SRR949512_I_Paratyphi_B:2.0E-6)[&label=100]:0.00713)[&label=93]:0.001029,((SRR1646572_I_Paratyphi_B:1.17E-4,SRR1810561_I_Paratyphi_B:4.0E-5)[&label=100]:0.001038,SRR2857712_I_Paratyphi_B:8.13E-4)[&label=100]:0.006094)[&label=88]:8.39E-4,((SRR3038286_I_Stanley:3.54E-4,SRR3137519_I_Stanley:8.94E-4)[&label=100]:0.004839,(SRR5366657_I_Paratyphi_B_monophasic_:2.0E-6,SRR5366666_I_Paratyphi_B_monophasic_:3.0E-6)[&label=100]:0.003777)[&label=100]:0.002048)[&label=99]:9.36E-4)[&label=91]:4.51E-4)[&label=76]:5.3E-4,((((((((((((((((BOV_NEWP_17_11-07-07_R6-0956[&!color=#0080ff]:0.0,ENV_NEWP_17_02-12-08_R8-0341[&!color=#0080ff]:0.0)[&!color=#0080ff]:0.0,ENV_NEWP_62_03-05-09_R8-3442[&!color=#0080ff]:0.0)[&!color=#0080ff]:0.0,ENV_NEWP_62_05-28-09_R8-4026[&!color=#0080ff]:0.0)[&!color=#0080ff]:0.0,BOV_NEWP_62_10-14-08_R8-2874[&!color=#0080ff]:0.0)[&!color=#0080ff]:0.0,ENV_NEWP_17_02-12-08_R8-0342[&!color=#0080ff]:0.0)[&!color=#0080ff]:0.0,ENV_NEWP_62_12-11-08_R8-3139[&!color=#0080ff]:0.0)[&!color=#0080ff]:0.0,ENV_NEWP_62_01-22-09_R8-3410[&!color=#0080ff]:0.0)[&!color=#0080ff]:0.0,BOV_NEWP_62_11-12-08_R8-2900[&!color=#0080ff]:0.0)[&!color=#0080ff]:2.0E-6,(BOV_NEWP_17_12-12-07_R8-0206[&!color=#0080ff]:2.0E-6,ENV_NEWP_62_12-11-08_R8-3137[&!color=#0080ff]:4.1E-5)[&label=24,!color=#0080ff]:2.0E-6)[&label=76,!color=#0080ff]:2.0E-6,(((BOV_NEWP_35_10-02-08_R8-2688[&!color=#0080ff]:4.1E-5,ENV_NEWP_35_11-05-08_R8-2843[&!color=#0080ff]:4.1E-5)[&label=16,!color=#0080ff]:2.0E-6,ENV_NEWP_35_10-02-08_R8-2249[&!color=#0080ff]:2.0E-6)[&label=13,!color=#0080ff]:2.0E-6,(ENV_NEWP_35_07-23-08_R8-1638[&!color=#0080ff]:0.0,ENV_NEWP_35_12-09-08_R8-3136[&!color=#0080ff]:0.0)[&!color=#0080ff]:2.0E-6)[&label=100,!color=#0080ff]:4.1E-5)[&label=100,!color=#0080ff]:1.22E-4,SRR3438078_I_Newport:4.1E-5)[&label=100]:8.57E-4,(SRR1604901_I_Newport:1.09E-4,SRR3372419_I_Newport:9.5E-5)[&label=100]:0.003455)[&label=100]:0.001743,(SRR1300706_I_Newport:7.4E-5,SRR3372429_I_Newport:2.46E-4)[&label=100]:0.00191)[&label=100]:0.003289,(SRR1805659_I_Litchfield:9.91E-4,SRR3194569_I_Litchfield:6.83E-4)[&label=100]:0.003842)[&label=99]:0.001294,(SRR1810853_I_Blockley:0.005414,SRR2857713_I_Virchow:0.005535)[&label=93]:0.001159)[&label=80]:2.84E-4,(SRR1346306_I_Szentes:2.0E-6,SRR2086572_I_Szentes:4.1E-5)[&label=100]:0.006335)[&label=78]:3.28E-4)[&label=82]:6.01E-4,((((SRR1157734_I_Chingola:0.001466,SRR2015928_I_Wentworth:0.001578)[&label=100]:3.04E-4,SRR1157900_I_Larochelle:0.001273)[&label=100]:0.002168,(SRR3453115_I_Aberdeen:3.0E-6,SRR3497910_I_Aberdeen:8.1E-5)[&label=100]:0.004042)[&label=100]:0.00204,((SRR1648175_I_Singapore:1.61E-4,SRR1653360_I_Singapore:4.1E-5)[&label=100]:0.005277,(SRR2650314_I_Thompson:2.0E-6,SRR3372426_I_Thompson:2.0E-6)[&label=100]:0.006084)[&label=94]:0.001538)[&label=93]:0.001157)[&label=100,!color=#ff0000]:0.006149)[&label=100,!color=#ff0000]:4.0E-5,ENV_ANAT_39_04-17-08_R8-0905[&!color=#ff0000]:4.0E-5)[&label=67,!color=#ff0000]:3.0E-6,ENV_ANAT_39_02-21-08_R8-0348[&!color=#ff0000]:4.0E-5)[&label=4,!color=#ff0000]:2.0E-6,ENV_ANAT_39_01-09-08_R8-0187[&!color=#ff0000]:2.0E-6)[&label=10,!color=#ff0000]:2.0E-6);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=575;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

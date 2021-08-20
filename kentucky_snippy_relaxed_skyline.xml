@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="BEAST v2.5.1:SSM v1.1.0" version="2.5">
+
+
+    <data id="cleanOriginal" name="alignment">
+                        <sequence id="seq_BOV_KENT_14_11-06-07_R6-0942" taxon="BOV_KENT_14_11-06-07_R6-0942" totalcount="4" value="CGAGGGTAAGCTCCCGCCGGTACGGATTCCCCTGTGGGGAGGGCGAGGGACGCGAGCCCACTGTCCACTCCTCACGCCGGCTTGCCCGTGACACGGCCGGAA"/>
+                        <sequence id="seq_BOV_KENT_14_12-13-07_R8-0083" taxon="BOV_KENT_14_12-13-07_R8-0083" totalcount="4" value="CGAGGGGGGGCTACCGCCGGCACGAATTCCCCTGTGGGTAGGGCGAGTGACGCGAGTCCACTGCCCACTCCCCACGCCGGTTTGCCCGTGGCTCGGACGGGA"/>
+                        <sequence id="seq_BOV_KENT_16_02-13-08_R8-0836" taxon="BOV_KENT_16_02-13-08_R8-0836" totalcount="4" value="CGAGGGGGGGCTCCCGCCGGCACGATGTCCCCTGTGGGGAGGGCGAGGAACTCTAGCCCACTGCCCACTCCCTACGCCGTCTTGTCTGTGACACGACCGGGG"/>
+                        <sequence id="seq_BOV_KENT_16_02-13-08_R8-0838" taxon="BOV_KENT_16_02-13-08_R8-0838" totalcount="4" value="CGAGGGGGGGCTCCCGCCGGCACGATGTTCCCTGTGGGGAGGGCGAGGGACGCGAGCACACTGCCCACTCCCCACGCCGGCTTGTCCGTGACACGGCCGGGG"/>
+                        <sequence id="seq_BOV_KENT_16_04-03-08_R8-0967" taxon="BOV_KENT_16_04-03-08_R8-0967" totalcount="4" value="CGAGGGGGGGCTCCCGCCGGCACGATGTTCCCTGTGGGGAGGGCGAGGGACGCGAACCCACTGCCCACTCCCCACGCCGGCTTGTCCGTGACACGGCCGGGG"/>
+                        <sequence id="seq_BOV_KENT_16_05-21-08_R8-1485" taxon="BOV_KENT_16_05-21-08_R8-1485" totalcount="4" value="CGAGGGGGGGCTCCCGCCGGCACGATGTCCCCTGTGGGGAGGGTGAAGAACGCGAGCCCACTGCCCACTCCCTCCGCCGGCTTGTCTATGACACGACCGGGG"/>
+                        <sequence id="seq_BOV_KENT_17_02-12-08_R8-0823" taxon="BOV_KENT_17_02-12-08_R8-0823" totalcount="4" value="CGGGGGGGGGCTACCGCCGGCACGGATCCCCCTGTGGGGAGTGCGAGGGACGCGGGCCCACTGCCCACTCCCCACGCCGGCTTACCCGTGACACGGCCGGGA"/>
+                        <sequence id="seq_BOV_KENT_17_11-07-07_R6-0957" taxon="BOV_KENT_17_11-07-07_R6-0957" totalcount="4" value="CGAGGGGGGGCTACCGCCGGCACGGATTCCCCTGTGGGGAGTGCGAGGGCCGCGGGCCCACTGCCCACTCCCCACGCCGGCTTACCCGTGACACGGCCGGGA"/>
+                        <sequence id="seq_BOV_KENT_17_12-12-07_R8-0211" taxon="BOV_KENT_17_12-12-07_R8-0211" totalcount="4" value="CGAGGGGGGGCTACCGACGGCATGGATTCCCCTGTGGGGAGTGCGAGGGCCGCGGGCCCACTGCCCACTCCCCACGCCGGCTTACCCGTGACACGGCCGGGA"/>
+                        <sequence id="seq_BOV_KENT_19_11-19-07_R6-0966" taxon="BOV_KENT_19_11-19-07_R6-0966" totalcount="4" value="CGAGGGGGGGCTACCGCCGGCACGAATTCACCTGTGGGTAGGGCGAGTGATGCGAGCCCACTGCCCACTCACCACGCCGGTTTGCCCGTGGCACGGACGGGA"/>
+                        <sequence id="seq_BOV_KENT_42_03-13-08_R8-0863" taxon="BOV_KENT_42_03-13-08_R8-0863" totalcount="4" value="CGAGGGGGGGCTACCGCCGGCACGAATTCCCCTGTGGGTAGGGCGAGTGACGCGAGCCCACTGCCCACTCCCCACGCCGGTTTGCCCGTGGCACGGACGGGA"/>
+                        <sequence id="seq_ENV_KENT_14_02-14-08_R8-0344" taxon="ENV_KENT_14_02-14-08_R8-0344" totalcount="4" value="CGAGGAGGGGCTACCGCCGGCACGAATTCCCCTGTGGGTAGGGCGAGTGACGCGAGCCCATTGCCCACTCCCCACGCCGGTTTGCCCGTGGCACGGACGGGA"/>
+                        <sequence id="seq_ENV_KENT_14_08-30-08_R8-2016" taxon="ENV_KENT_14_08-30-08_R8-2016" totalcount="4" value="CGAGGGGGGGCTACCGCCGACACGAATTCCCCTGTGGGTAGGGCGAGTGACGTGAGCCCACTGCCCACTCCCCACGCCGGTTTGCCCGTGGCACGGACGGGA"/>
+                        <sequence id="seq_ENV_KENT_14_10-11-07_R6-0798" taxon="ENV_KENT_14_10-11-07_R6-0798" totalcount="4" value="CGATGGGAGGCTCCCGCCGGTACGGATTCCCCTGTGGGGAGGGCGAGGGACGCGAGCCCACTGTCCACTCCTCACGCCGGCTTGCCCGTGACACGGCCGGAA"/>
+                        <sequence id="seq_ENV_KENT_16_09-09-08_R8-2031" taxon="ENV_KENT_16_09-09-08_R8-2031" totalcount="4" value="CGAGGGGGGGCTCACGCCGGCACGATGTCCCCTGTGGGGAGGGCGAAGAACGCGAGCCCACTGCCCATTTCCTCCGCCGGCTTGTCTATGACACGACCGGGG"/>
+                        <sequence id="seq_ENV_KENT_16_11-11-08_R8-2848" taxon="ENV_KENT_16_11-11-08_R8-2848" totalcount="4" value="CGAGGGGGGGCTCCCGCCGGCACGATGTTCCCTATGGGGAGGGCGAGGGACGCGAGCCCACTGCCCACTCCCCACGCCGGCTTGTCCGTGACACGGCCAGGG"/>
+                        <sequence id="seq_ENV_KENT_16_12-04-07_R8-0061" taxon="ENV_KENT_16_12-04-07_R8-0061" totalcount="4" value="CGAGGGGGGGCTCCCGCCGGCACGATGTCCCCTGTGGGGTGGGCGAGGAACGCGAGCCCACTGCCCACTCCCCACGCCGGCTTGTTCGTGACACGACCGGGG"/>
+                        <sequence id="seq_ENV_KENT_17_03-11-08_R8-0814" taxon="ENV_KENT_17_03-11-08_R8-0814" totalcount="4" value="CAAGGGGGGGATACTTCCGGCACGGATTCCCCTGTGGGGATGACGAGGGACGCGGGCCTACTGCTCTCGCCCCACGCCGGCTGGCCCGTAACACGGCCGGGA"/>
+                        <sequence id="seq_ENV_KENT_17_03-11-08_R8-0815" taxon="ENV_KENT_17_03-11-08_R8-0815" totalcount="4" value="CGAGGGGGGGCTACCGCCGGCACGGATTCCCCTGTGGGGAGTGCGAGGGCCGCGGGCCCACTGCCCACTCCCCACACCAGCTTACCCGTGATATGGCAGGGA"/>
+                        <sequence id="seq_ENV_KENT_17_06-17-08_R8-1405" taxon="ENV_KENT_17_06-17-08_R8-1405" totalcount="4" value="CGAGGGGGGGCTACCGCCGGCGCGGATTCCCCTGTGGGGAGTGCGAGGGCCGCGGGCCCACTGCCCACTCCCCACGCTGGCTTACCCGTGACACGGCCGGGA"/>
+                        <sequence id="seq_ENV_KENT_17_07-27-08_R8-1641" taxon="ENV_KENT_17_07-27-08_R8-1641" totalcount="4" value="CGAGGGGGGGCTACCGCCGGCACGGATTCCCCTGTGGGGAGTGCGAGGGCCGCGGGCCCACTGCCCACTCCCCACGCTGGCTTACCCGTGACACGGCCGGGA"/>
+                        <sequence id="seq_ENV_KENT_17_09-10-08_R8-2033" taxon="ENV_KENT_17_09-10-08_R8-2033" totalcount="4" value="CGAGGGGGGGCTACCGCCGGCACGGATTCCCCTGTGGGGAGTGCGAGGGCCGCGGGCCCACTGCCCACTCCCCACGCTGGCTTACCCGTGACACGGCCGGGA"/>
+                        <sequence id="seq_ENV_KENT_17_10-11-07_R6-1000" taxon="ENV_KENT_17_10-11-07_R6-1000" totalcount="4" value="CGAGGGGGGGCTACCGCTGGCACGAATTCCCCTGGGGGTAGGGCGAGTGACGCGAGCCCACTGCCCACTCCCCACGCCGGTTTGCCCGTGGCACGGACGGGA"/>
+                        <sequence id="seq_ENV_KENT_19_01-16-08_R8-0168" taxon="ENV_KENT_19_01-16-08_R8-0168" totalcount="4" value="CGAGGGGGGGCTACCGCCGGCACGAATTCACCTGTGGGTAGGGCGAGTGATGCGAGCCCACTGCCCACTCCCCACGCCGGTTTGCCCGTGGCACGGACGGGA"/>
+                        <sequence id="seq_ENV_KENT_19_03-13-08_R8-0817" taxon="ENV_KENT_19_03-13-08_R8-0817" totalcount="4" value="CGAGAGGGGGCTACCGCCGGCACGAATTCACCTGTGGGTAGGGCGAGTGATGCGAGCCCACTGCCCACTCCCCACGCCGGTATGCCCGTGGCACGGACGGGA"/>
+                        <sequence id="seq_ENV_KENT_19_04-28-08_R8-0916" taxon="ENV_KENT_19_04-28-08_R8-0916" totalcount="4" value="CGAGGGGGGGCTACCGCCGGCACGAATTCACCTGTGGGTAGGGCGAGTGATGCGAGCCCACTGCCCACTCCCCATGCCGGTTTGCCCGGGGCACGGACGAGA"/>
+                        <sequence id="seq_ENV_KENT_19_04-28-08_R8-0917" taxon="ENV_KENT_19_04-28-08_R8-0917" totalcount="4" value="TGAGGGGGGGCTACCGCCGGCACGAATTCACCTGTGGGTAGGGCGAGTGATGCGAGCCCTCTGCCCACTCACCACGCCGGTTTGCCCGTGGCACGGACGGGA"/>
+                        <sequence id="seq_ENV_KENT_19_07-21-08_R8-1644" taxon="ENV_KENT_19_07-21-08_R8-1644" totalcount="4" value="CGAGAGGGGACTACCGCCGGCACGAATTCACCTGTGGGTAGGGCGGGTGATGCGAGCCCACTGCCCACTCCCCACGCCGGTTTGCCCGTGGCACGGACGGGA"/>
+                        <sequence id="seq_ENV_KENT_19_10-02-08_R8-2813" taxon="ENV_KENT_19_10-02-08_R8-2813" totalcount="4" value="CGAGGGGGGGCAACCGCCAGCACAAATTCATCTGTAGGTAGGGCAAGTGATGCGAGCCCACTGCCCACTCCCCACGTCGGTTTGCCCGTGGCACAGACGGGA"/>
+                        <sequence id="seq_ENV_KENT_42_01-17-08_R8-0191" taxon="ENV_KENT_42_01-17-08_R8-0191" totalcount="4" value="CGAGGGGGGGCTCCCGCCGGCACGAATTCCCCTGTGAGTAGGGCGAGTGACGCGAGCCCACTGCCCACTCCCCACGCCGGTTTGCCCGTGGCACGGACGGGA"/>
+                        <sequence id="seq_ENV_KENT_42_04-23-08_R8-0913" taxon="ENV_KENT_42_04-23-08_R8-0913" totalcount="4" value="CGAGGGGGGGCTACCGCCGGCACGAATTCCCCTGTGGGTAGGGCGAGTGACGCGAGCCCACTTCCCACTCCCCACGCCGGTTTGCCCGTGGCACGGACGGGA"/>
+                        <sequence id="seq_ENV_KENT_42_04-23-08_R8-0914" taxon="ENV_KENT_42_04-23-08_R8-0914" totalcount="4" value="CGAGGGGGGGCTCCCGCCGGCACGAATTCCCTTGTGGTTAGGGCGAGTGACGCGAGCCCACTGCCCACTCCCCACGCCGGTTTGCCCGTGGCACGGACGGGA"/>
+                        <sequence id="seq_ENV_KENT_42_07-23-08_R8-1640" taxon="ENV_KENT_42_07-23-08_R8-1640" totalcount="4" value="CGAGGGGGGGCTACCGCCGGCACGAATTCCCCTGTGGGTAGGGCGAGTGACGCGAGCCCACTGCCCACTCCCCACGCCGGTTTGCCCGTGGCACGGACGGGA"/>
+                        <sequence id="seq_ENV_KENT_42_08-19-08_R8-2009" taxon="ENV_KENT_42_08-19-08_R8-2009" totalcount="4" value="CGAGGGGGGGCTACCGCCGGCACGAATTCCCCCGTGGGTAGGGCGAGTGACGCGAGCCCACCGCCCACTCCCCACGCCGGTTTGCCCGTGGCACGGACGGGA"/>
+                        <sequence id="seq_ENV_KENT_42_09-17-08_R8-2236" taxon="ENV_KENT_42_09-17-08_R8-2236" totalcount="4" value="CGAGGGGGGGCTACCGCCGGCACGAATTCCCCTGTGGGTAGGGCGAGTGACGCGAGCCCACTGCCTACTCCCCACGCCGGTTTGCCCGTGGCACGGACGGGA"/>
+                        <sequence id="seq_ENV_KENT_42_11-15-07_R6-0935" taxon="ENV_KENT_42_11-15-07_R6-0935" totalcount="4" value="CGAGGGGGGGCTACCGCCGGCACGAATTCCCCTGTGGGTAGGGCGAGTGACGCGAGCCCACTGCCCACTCCCCACGCCGGTTTGCCCGTGGCACGGACGGGA"/>
+                    </data>
+
+<data id='clean' spec='FilteredAlignment' filter='-' data='@cleanOriginal' constantSiteWeights='1127330 1220781 1244988 1136513'/>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="100000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:clean" name="stateNode">
+            <trait id="dateTrait.t:clean" spec="beast.evolution.tree.TraitSet" dateFormat="MM-dd-yy" traitname="date" value="BOV_KENT_14_11-06-07_R6-0942=11-06-07,BOV_KENT_14_12-13-07_R8-0083=12-13-07,BOV_KENT_16_02-13-08_R8-0836=02-13-08,BOV_KENT_16_02-13-08_R8-0838=02-13-08,BOV_KENT_16_04-03-08_R8-0967=04-03-08,BOV_KENT_16_05-21-08_R8-1485=05-21-08,BOV_KENT_17_02-12-08_R8-0823=02-12-08,BOV_KENT_17_11-07-07_R6-0957=11-07-07,BOV_KENT_17_12-12-07_R8-0211=12-12-07,BOV_KENT_19_11-19-07_R6-0966=11-19-07,BOV_KENT_42_03-13-08_R8-0863=03-13-08,ENV_KENT_14_02-14-08_R8-0344=02-14-08,ENV_KENT_14_08-30-08_R8-2016=08-30-08,ENV_KENT_14_10-11-07_R6-0798=10-11-07,ENV_KENT_16_09-09-08_R8-2031=09-09-08,ENV_KENT_16_11-11-08_R8-2848=11-11-08,ENV_KENT_16_12-04-07_R8-0061=12-04-07,ENV_KENT_17_03-11-08_R8-0814=03-11-08,ENV_KENT_17_03-11-08_R8-0815=03-11-08,ENV_KENT_17_06-17-08_R8-1405=06-17-08,ENV_KENT_17_07-27-08_R8-1641=07-27-08,ENV_KENT_17_09-10-08_R8-2033=09-10-08,ENV_KENT_17_10-11-07_R6-1000=10-11-07,ENV_KENT_19_01-16-08_R8-0168=01-16-08,ENV_KENT_19_03-13-08_R8-0817=03-13-08,ENV_KENT_19_04-28-08_R8-0916=04-28-08,ENV_KENT_19_04-28-08_R8-0917=04-28-08,ENV_KENT_19_07-21-08_R8-1644=07-21-08,ENV_KENT_19_10-02-08_R8-2813=10-02-08,ENV_KENT_42_01-17-08_R8-0191=01-17-08,ENV_KENT_42_04-23-08_R8-0913=04-23-08,ENV_KENT_42_04-23-08_R8-0914=04-23-08,ENV_KENT_42_07-23-08_R8-1640=07-23-08,ENV_KENT_42_08-19-08_R8-2009=08-19-08,ENV_KENT_42_09-17-08_R8-2236=09-17-08,ENV_KENT_42_11-15-07_R6-0935=11-15-07">
+                <taxa id="TaxonSet.clean" spec="TaxonSet">
+                    <alignment idref="clean"/>
+                </taxa>
+            </trait>
+            <taxonset idref="TaxonSet.clean"/>
+        </tree>
+        <parameter id="gammaShape.s:clean" name="stateNode">1.0</parameter>
+        <parameter id="TVMefrates.s:clean" dimension="5" lower="0.0" name="stateNode">1.0 1.0 1.0 1.0 1.0</parameter>
+        <parameter id="bPopSizes.t:clean" dimension="5" lower="0.0" name="stateNode" upper="380000.0">380.0</parameter>
+        <stateNode id="bGroupSizes.t:clean" spec="parameter.IntegerParameter" dimension="5">1</stateNode>
+        <parameter id="ucldMean.c:clean" name="stateNode">2.79E-7</parameter>
+        <parameter id="ucldStdev.c:clean" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:clean" spec="parameter.IntegerParameter" dimension="70">1</stateNode>
+    </state>
+
+    <init id="RandomTree.t:clean" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:clean" taxa="@clean">
+        <populationModel id="ConstantPopulation0.t:clean" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:clean" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BayesianSkyline.t:clean" spec="BayesianSkyline" groupSizes="@bGroupSizes.t:clean" popSizes="@bPopSizes.t:clean">
+                <treeIntervals id="BSPTreeIntervals.t:clean" spec="TreeIntervals" tree="@Tree.t:clean"/>
+            </distribution>
+            <distribution id="MarkovChainedPopSizes.t:clean" spec="beast.math.distributions.MarkovChainDistribution" jeffreys="true" parameter="@bPopSizes.t:clean"/>
+            <prior id="GammaShapePrior.s:clean" name="distribution" x="@gammaShape.s:clean">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" estimate="false" name="mean">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="MeanRatePrior.c:clean" name="distribution" x="@ucldMean.c:clean">
+                <LogNormal id="LogNormalDistributionModel.1" meanInRealSpace="true" name="distr">
+                    <parameter id="RealParameter.6" estimate="false" name="M">2.058E-6</parameter>
+                    <parameter id="RealParameter.7" estimate="false" lower="0.0" name="S" upper="5.0">2.0</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="ucldStdevPrior.c:clean" name="distribution" x="@ucldStdev.c:clean">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.4" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.5" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.clean" spec="ThreadedTreeLikelihood" data="@clean" tree="@Tree.t:clean">
+                <siteModel id="SiteModel.s:clean" spec="SiteModel" gammaCategoryCount="5" shape="@gammaShape.s:clean">
+                    <parameter id="mutationRate.s:clean" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="proportionInvariant.s:clean" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="Standard_TVMef.s:clean" spec="substmodels.nucleotide.TVMef" rates="@TVMefrates.s:clean"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:clean" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" clock.rate="@ucldMean.c:clean" rateCategories="@rateCategories.c:clean" tree="@Tree.t:clean">
+                    <LogNormal id="LogNormalDistributionModel.c:clean" S="@ucldStdev.c:clean" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.3" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+        <distribution id="fossilCalibrations" spec="util.CompoundDistribution"/>
+    </distribution>
+
+    <operator id="gammaShapeScaler.s:clean" spec="ScaleOperator" parameter="@gammaShape.s:clean" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="TVMefRateDeltaExchanger.s:clean" spec="DeltaExchangeOperator" delta="0.1" weight="0.1">
+        <parameter idref="TVMefrates.s:clean"/>
+        <weightvector id="IntegerParameter.0" spec="parameter.IntegerParameter" dimension="5" estimate="false">1 2 1 1 1</weightvector>
+    </operator>
+
+    <operator id="BayesianSkylineTreeScaler.t:clean" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:clean" weight="3.0"/>
+
+    <operator id="BayesianSkylineTreeRootScaler.t:clean" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:clean" weight="3.0"/>
+
+    <operator id="BayesianSkylineUniformOperator.t:clean" spec="Uniform" tree="@Tree.t:clean" weight="30.0"/>
+
+    <operator id="BayesianSkylineSubtreeSlide.t:clean" spec="SubtreeSlide" tree="@Tree.t:clean" weight="15.0"/>
+
+    <operator id="BayesianSkylineNarrow.t:clean" spec="Exchange" tree="@Tree.t:clean" weight="15.0"/>
+
+    <operator id="BayesianSkylineWide.t:clean" spec="Exchange" isNarrow="false" tree="@Tree.t:clean" weight="3.0"/>
+
+    <operator id="BayesianSkylineWilsonBalding.t:clean" spec="WilsonBalding" tree="@Tree.t:clean" weight="3.0"/>
+
+    <operator id="popSizesScaler.t:clean" spec="ScaleOperator" parameter="@bPopSizes.t:clean" scaleFactor="0.75" weight="15.0"/>
+
+    <operator id="groupSizesDelta.t:clean" spec="DeltaExchangeOperator" integer="true" weight="6.0">
+        <intparameter idref="bGroupSizes.t:clean"/>
+    </operator>
+
+    <operator id="ucldMeanScaler.c:clean" spec="ScaleOperator" parameter="@ucldMean.c:clean" scaleFactor="0.5" weight="1.0"/>
+
+    <operator id="ucldStdevScaler.c:clean" spec="ScaleOperator" parameter="@ucldStdev.c:clean" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:clean" spec="IntRandomWalkOperator" parameter="@rateCategories.c:clean" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:clean" spec="SwapOperator" intparameter="@rateCategories.c:clean" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:clean" spec="UniformOperator" parameter="@rateCategories.c:clean" weight="10.0"/>
+
+    <operator id="relaxedUpDownOperator.c:clean" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+        <up idref="ucldMean.c:clean"/>
+        <down idref="Tree.t:clean"/>
+    </operator>
+
+    <logger id="tracelog" fileName="clean.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.clean"/>
+        <log id="TreeHeight.t:clean" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:clean"/>
+        <log idref="gammaShape.s:clean"/>
+        <log idref="Standard_TVMef.s:clean"/>
+        <log idref="BayesianSkyline.t:clean"/>
+        <log idref="bPopSizes.t:clean"/>
+        <log idref="bGroupSizes.t:clean"/>
+        <log idref="ucldMean.c:clean"/>
+        <log idref="ucldStdev.c:clean"/>
+        <log id="rate.c:clean" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:clean" tree="@Tree.t:clean"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="10000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:clean" fileName="$(tree).trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:clean" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:clean" tree="@Tree.t:clean"/>
+    </logger>
+
+</run>
+
+</beast>
